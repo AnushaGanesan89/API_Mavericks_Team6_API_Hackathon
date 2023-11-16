@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Team6_API_Hackathon_API_Mavericks/src/test/resources/Extent.properties&apos; to &apos;extent.properties&apos;" description="Rename resource &apos;Extent.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/resources/Extent.properties" name="extent.properties" stamp="1700097653071" updateReferences="true"/>
+</session>
