@@ -1,0 +1,44 @@
+Feature: User Login Module Positive Scenarios
+Background: User sets Authorization to Bearer Token
+
+Scenario Outline: Check if user(Dietician) is able to login  valid endpoint and with valid email id and password in request body
+Given: User creates POST Request for the Dietician API endpoint
+When User sends HTTPS Request and  request Body with valid emailid and password from the excel sheet "<SheetName>" and <RowNumber>
+Then User receives 201 Ok Status with response body
+Examples: 
+      |SheetName           | RowNumber |
+      |Dietician_Login     |         0 |
+     
+Scenario Outline: Check user is able to retrive all programs
+    Given:User create get request
+    When User sends HTTPS request to get all programs
+    Then The user submits the get request and verifies the status 200
+  	
+  Scenario Outline: check user is able to get request by programId
+    Given:User create get request by programid
+    When User sends HTTPS request to get request by valid programid
+    Then The user submits the get request and verifies the status 200
+  	
+  	
+ Scenario Outline: update a program with valid id and request body
+    Given: The user create update request
+    When User sends HTTPS request with mandatory fields to update a request by program id from the excel sheet "<SheetName>" and <RowNumber>
+    Then The user submits the update request and verifies the status 200
+    
+    Examples: 
+      |SheetName        | RowNumber |
+      |ProgramData     |         1 |
+      
+  Scenario Outline: update a program with  valid programName
+    Given: The user create update request
+    When User sends HTTPS request with mandatory fields to update program by program name from the excel sheet "<SheetName>" and <RowNumber>
+    Then The user submits the update request and verifies the status 200
+    
+   Examples: 
+      |SheetName        | RowNumber |
+      |ProgramData     |         2 |
+  
+  
+    
+      
+       

@@ -1,0 +1,5 @@
+package api.Payloads;
+
+public class Morbidity_POJO {
+
+}

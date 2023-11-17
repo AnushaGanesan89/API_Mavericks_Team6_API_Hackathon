@@ -1,0 +1,15 @@
+package api.Payloads;
+
+import java.util.Date;
+
+public class Patient_POJO {
+	String FirstName;
+	String LastName;
+	int ContactNumber;
+	String Email;
+	String Allergy;
+	String FoodCategory;
+	Date DateOfBirth;
+	
+
+}
