@@ -1,5 +1,39 @@
 package api.Actions;
 
+
+import api.CRUDOperations.*;
+import api.Payloads.*;
+import api.Utilities.Loggerload;
+import api.GlobalVariables.*;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+
 public class User_Login_TC {
 
+	Response response;
+	String extractresponse;
+	JsonPath jsonPathEvaluator;
+	
+	public void TestPostUserLogin(String password,String userLoginEmail)
+	{
+		User_Login_POJO userpayload=new User_Login_POJO();
+		userpayload.setUserLoginEmail(userLoginEmail);
+		userpayload.setPassword(password);
+		response= User_Login_CRUD.User_Login(userpayload);
+		extractresponse=response.then().log().all().extract().response().asString();
+		JsonPath js= new JsonPath(extractresponse);
+		String tkn= js.getString("token");
+		System.out.println("Token is" +tkn);
+		Env_Var.token=tkn;
+		
+		
+	}
+	
+public int verify_post_UserLogin_status() {
+		
+		int code;
+		code=response.getStatusCode();
+		return code;
+
+	}
 }

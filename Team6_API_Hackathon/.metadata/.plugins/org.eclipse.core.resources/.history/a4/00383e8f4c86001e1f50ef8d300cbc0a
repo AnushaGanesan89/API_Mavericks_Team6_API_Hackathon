@@ -1,0 +1,62 @@
+package api.Payloads;
+
+import java.time.LocalDate;
+import java.util.Date;
+
+public class Patient_POJO {
+	String FirstName;
+	String LastName;
+	long ContactNumber;
+	String Email;
+	String Allergy;
+	String FoodCategory;
+	String DateOfBirth;
+	//int patientId;
+	
+	public String getFirstName() {
+		return FirstName;
+	}
+	public void setFirstName(String FirstName) {
+		FirstName = FirstName;
+	}
+	public String getLastName() {
+		return LastName;
+	}
+	public void setLastName(String LastName) {
+		LastName = LastName;
+	}
+	public long getContactNumber() {
+		return ContactNumber;
+	}
+	public void setContactNumber(long ContactNumber) {
+		ContactNumber = ContactNumber;
+	}
+	public String getEmail() {
+		return Email;
+	}
+	public void setEmail(String Email) {
+		Email = Email;
+	}
+	public String getAllergy() {
+		return Allergy;
+	}
+	public void setAllergy(String Allergy) {
+		Allergy = Allergy;
+	}
+	public String getFoodCategory() {
+		return FoodCategory;
+	}
+	public void setFoodCategory(String FoodCategory) {
+		FoodCategory = FoodCategory;
+	}
+	public String getDateOfBirth() {
+		return DateOfBirth;
+	}
+	public void setDateOfBirth(String DateOfBirth) {
+		DateOfBirth = DateOfBirth;
+	}
+	
+	
+	
+
+}

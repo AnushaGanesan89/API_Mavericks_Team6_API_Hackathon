@@ -1,0 +1,1 @@
+{"uuid":"105a017b-f3b2-4985-9bf0-293620e58c91","name":"Scenario: Check if user able to retrieve all patients with valid API Endpoint","children":["bc1b522c-15ea-4e1c-a8af-0e55dae2ff4a"],"befores":[],"afters":[],"start":1700268668378,"stop":1700268668384}

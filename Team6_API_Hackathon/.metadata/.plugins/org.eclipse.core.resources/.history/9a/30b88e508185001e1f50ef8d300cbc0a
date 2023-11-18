@@ -1,0 +1,20 @@
+package api.Actions;
+
+import org.testng.Assert;
+import api.CRUDOperations.*;
+import api.Payloads.*;
+import api.Utilities.Loggerload;
+import api.GlobalVariables.*;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+
+public class User_Login_TC {
+
+	Response response;
+	String extractresponse;
+	JsonPath jsonPathEvaluator;
+	
+	public void TestPostUserLogin(String assignmentDescription,String batchId,String comments,String createdBy,
+			String graderId,String pathAttachment1,String pathAttachment2,
+			String pathAttachment3,String pathAttachment4,String pathAttachment5)
+}

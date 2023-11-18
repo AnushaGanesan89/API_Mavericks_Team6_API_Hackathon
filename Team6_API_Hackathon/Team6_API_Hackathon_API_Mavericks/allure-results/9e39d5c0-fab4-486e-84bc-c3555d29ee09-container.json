@@ -1,0 +1,1 @@
+{"uuid":"9e39d5c0-fab4-486e-84bc-c3555d29ee09","name":"Scenario Outline: Check if user(Dietician) is able to login  valid endpoint and with valid email id and password in request body","children":["e09f8218-6276-428f-945f-3ac3eb7bbd91"],"befores":[],"afters":[],"start":1700281441723,"stop":1700281448309}

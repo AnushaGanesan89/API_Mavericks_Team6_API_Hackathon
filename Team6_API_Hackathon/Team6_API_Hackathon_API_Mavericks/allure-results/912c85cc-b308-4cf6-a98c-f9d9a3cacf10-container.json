@@ -1,0 +1,1 @@
+{"uuid":"912c85cc-b308-4cf6-a98c-f9d9a3cacf10","name":"Scenario Outline: Check if user able to retrieve specific patients test report with valid API Endpoint","children":["e8dce5e5-88bd-4368-bf39-b8a4615d1ec2"],"befores":[],"afters":[],"start":1700277748049,"stop":1700277748069}

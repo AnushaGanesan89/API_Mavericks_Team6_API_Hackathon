@@ -1,66 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="1.575" tests="9" skipped="0" failures="9" errors="0">
-<testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user(Dietician) is able to login  valid endpoint and with valid email id and password in request body - Example #1.1" time="0.711">
-<failure/>
+<testsuite name="Cucumber" time="16.151" tests="9" skipped="0" failures="0" errors="0">
+<testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user(Dietician) is able to login  valid endpoint and with valid email id and password in request body - Example #1.1" time="13.03">
 <system-out><![CDATA[
-When User sends HTTPS Request and  request Body with valid emailid and password from the excel sheet "Dietician_Login" and 0.undefined
-Then User receives 201 Ok Status with response body and successfully logs in.skipped
+When User sends HTTPS Request and  request Body with valid emailid and password from the excel sheet "Dietician_Login" and 0.passed
+Then User receives 201 Ok Status with response body and successfully logs in.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user_dietician able to create a patient with valid endpoint and request body for non existing values - Example #1.1" time="0.031">
-<failure/>
+<testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user_dietician able to create a patient with valid endpoint and request body for non existing values - Example #1.1" time="1.92">
 <system-out><![CDATA[
-When User sends HTTPS Request and request Body with mandatory and additional  fields to create a patient records from the excel sheet "New_Patient" and 0.undefined
-Then User receives 201 Created Status with response body and patient is successfully created.skipped
+When User sends HTTPS Request and request Body with mandatory and additional  fields to create a patient records from the excel sheet "New_Patient" and 0.passed
+Then User receives 201 Created Status with response body and patient is successfully created.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user able to retrieve all patients with valid API Endpoint" time="0.021">
-<failure/>
+<testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user able to retrieve all patients with valid API Endpoint" time="0.015">
 <system-out><![CDATA[
-When User sends HTTPS Request to retrieve all patients details..............undefined
-Then User recieves 200 OK with response body................................skipped
+When User sends HTTPS Request to retrieve all patients details..............passed
+Then User recieves 200 OK with response body................................passed
 ]]></system-out>
 </testcase>
 <testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user_dietician is able to update a patient with valid patient details and mandatory request body - Example #1.1" time="0.013">
-<failure/>
 <system-out><![CDATA[
-When User sends HTTPS Request and request Body with mandatory and additional  fields to update a patient records from the excel sheet "Update_Patient" and 0.undefined
-Then User recieves 200 Ok with response body with response body and patient details are successfully updated.skipped
+When User sends HTTPS Request and request Body with mandatory and additional  fields to update a patient records from the excel sheet "Update_Patient" and 0.passed
+Then User recieves 200 Ok with response body with response body and patient details are successfully updated.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user able to retrieve specific patients test report with valid API Endpoint - Example #1.1" time="0.012">
-<failure/>
+<testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user able to retrieve specific patients test report with valid API Endpoint - Example #1.1" time="0.026">
 <system-out><![CDATA[
-When User sends HTTPS Request with valid patient id 474.....................undefined
-Then User recieves 200 OK with patient test report details..................skipped
+When User sends HTTPS Request with valid patient id 474.....................passed
+Then User recieves 200 OK with patient test report details..................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user able to retrieve specific patients test report by fileid with valid API Endpoint - Example #1.1" time="0.021">
-<failure/>
+<testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user able to retrieve specific patients test report by fileid with valid API Endpoint - Example #1.1" time="0.009">
 <system-out><![CDATA[
-When User sends HTTPS Request with valid fileid 474edght....................undefined
-Then User recieves 200 OK with patient test report details..................skipped
+When User sends HTTPS Request with valid fileid "474edght"..................passed
+Then User recieves 200 OK with patient test report details..................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user able to retrieve all morbidity information" time="0.021">
-<failure/>
+<testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user able to retrieve all morbidity information" time="0.008">
 <system-out><![CDATA[
-When User sends HTTPS Request to retrieve all morbidity details.............undefined
-Then User recieves 200 OK with response body................................skipped
+When User sends HTTPS Request to retrieve all morbidity details.............passed
+Then User recieves 200 OK with response body................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user able to retrieve a morbidity information with valid Morbidity TestName - Example #1.1" time="0.009">
-<failure/>
+<testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user able to retrieve a morbidity information with valid Morbidity TestName - Example #1.1" time="0.019">
 <system-out><![CDATA[
-When User sends HTTPS Request with morbidity test name "TSH"................undefined
-Then User receives 200 OK Status with response body.........................skipped
+When User sends HTTPS Request with morbidity test name "TSH"................passed
+Then User receives 200 OK Status with response body.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user able to logout from Dietician API" time="0.017">
-<failure/>
+<testcase classname="Dieticians Role Module Positive Scenarios" name="Check if user able to logout from Dietician API" time="0.029">
 <system-out><![CDATA[
-When User sends HTTPS GET Request to logout from the Dietician API..........undefined
-Then User receives 200 OK Status with response body Logout successful.......skipped
+When User sends HTTPS GET Request to logout from the Dietician API..........passed
+Then User receives 200 OK Status with response body Logout successful.......passed
 ]]></system-out>
 </testcase>
 </testsuite>
+

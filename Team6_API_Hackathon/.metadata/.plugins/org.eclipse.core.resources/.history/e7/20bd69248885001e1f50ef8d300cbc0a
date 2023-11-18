@@ -1,0 +1,17 @@
+package api.Actions;
+
+
+import api.CRUDOperations.*;
+import api.Payloads.*;
+import api.Utilities.Loggerload;
+import api.GlobalVariables.*;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+
+public class Patient_TC {
+
+	Response response;
+	String extractresponse;
+	JsonPath jsonPathEvaluator;
+	
+}

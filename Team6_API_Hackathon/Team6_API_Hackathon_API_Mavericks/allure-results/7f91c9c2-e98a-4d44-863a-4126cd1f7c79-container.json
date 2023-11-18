@@ -1,0 +1,1 @@
+{"uuid":"7f91c9c2-e98a-4d44-863a-4126cd1f7c79","name":"Scenario Outline: Check if user_dietician is able to update a patient with valid patient details and mandatory request body","children":["cdba873f-3936-4887-accd-045d36ef2cef"],"befores":[],"afters":[],"start":1700333102047,"stop":1700333102057}

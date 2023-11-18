@@ -1,0 +1,39 @@
+package api.CRUDOperations;
+import static io.restassured.RestAssured.given;
+
+import java.io.File;
+import java.util.ResourceBundle;
+import api.Payloads.*;
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import api.GlobalVariables.*;
+
+public class Patient_CRUD {
+ static String token= Env_Var.token;
+	static ResourceBundle getURL()
+	{
+		ResourceBundle endurl=ResourceBundle.getBundle("EndPoints");
+		return endurl;
+	}
+	
+	// To perform Patient_POST Request
+	
+		public static Response Patient_Creation(Patient_POJO patientpayload)
+		{
+			String Patient_Post= getURL().getString("Create_Patient_Post");
+			Response ID=given().header("Authorization", "Bearer " +token)
+					.accept("application/json, multipart/form-data, */*")
+					.accept(ContentType.JSON)
+					.accept(ContentType.MULTIPART)
+					.param("patientInfo",patientpayload)
+					
+					//.multiPart("file", new File(".\\TestData\\HyperThyroid_Report_final.pdf"),"multipart/form-data")
+					.when().log().all()
+					.post(Patient_Post);
+					
+			         
+			System.out.println(ID);
+			return ID;
+		}
+}

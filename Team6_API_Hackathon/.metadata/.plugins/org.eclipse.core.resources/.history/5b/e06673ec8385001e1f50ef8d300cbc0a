@@ -1,0 +1,6 @@
+base_url=https://dietician-dev-41d9a344a720.herokuapp.com/dietician
+
+#UserLogin
+
+User_Login_Post= https://dietician-dev-41d9a344a720.herokuapp.com/dietician/patient
+User_Login_Get= https://dietician-dev-41d9a344a720.herokuapp.com/dietician/logoutdietician

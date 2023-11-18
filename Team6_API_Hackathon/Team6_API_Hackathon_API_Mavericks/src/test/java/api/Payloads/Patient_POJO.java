@@ -1,17 +1,17 @@
 package api.Payloads;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Patient_POJO {
 	String FirstName;
 	String LastName;
-	int ContactNumber;
+	long ContactNumber;
 	String Email;
 	String Allergy;
 	String FoodCategory;
-	Date DateOfBirth;
-	int patientId;
-	
+	String DateOfBirth;
+	//int patientId;
 	public String getFirstName() {
 		return FirstName;
 	}
@@ -24,10 +24,10 @@ public class Patient_POJO {
 	public void setLastName(String lastName) {
 		LastName = lastName;
 	}
-	public int getContactNumber() {
+	public long getContactNumber() {
 		return ContactNumber;
 	}
-	public void setContactNumber(int contactNumber) {
+	public void setContactNumber(long contactNumber) {
 		ContactNumber = contactNumber;
 	}
 	public String getEmail() {
@@ -48,18 +48,14 @@ public class Patient_POJO {
 	public void setFoodCategory(String foodCategory) {
 		FoodCategory = foodCategory;
 	}
-	public Date getDateOfBirth() {
+	public String getDateOfBirth() {
 		return DateOfBirth;
 	}
-	public void setDateOfBirth(Date dateOfBirth) {
+	public void setDateOfBirth(String dateOfBirth) {
 		DateOfBirth = dateOfBirth;
 	}
-	public int getPatientId() {
-		return patientId;
-	}
-	public void setPatientId(int patientId) {
-		this.patientId = patientId;
-	}
+	
+	
 	
 	
 
