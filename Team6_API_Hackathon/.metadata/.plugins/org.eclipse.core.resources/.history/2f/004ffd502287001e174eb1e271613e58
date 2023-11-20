@@ -1,0 +1,38 @@
+package api.StepDefinitions;
+import io.cucumber.java.en.Then;
+
+import io.cucumber.java.en.When;
+import java.io.IOException;
+import java.text.ParseException;
+import java.util.List;
+import java.util.Map;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.testng.Assert;
+
+import api.Actions.*;
+import api.CRUDOperations.*;
+import api.Payloads.*;
+import io.restassured.response.Response;
+import api.Utilities.ExcelReader;
+import api.GlobalVariables.*;
+
+public class Patient_Role_Steps {
+	User_Login_TC utc= new User_Login_TC();
+	Patient_TC ptc= new Patient_TC();
+	Morbidity_TC mtc= new Morbidity_TC();
+	
+	
+	@When("User sends HTTPS Request and  request Body with valid patient emailid and password from the excel sheet {string} and {int}")
+	public void user_sends_https_request_and_request_body_with_valid_patient_emailid_and_password_from_the_excel_sheet_and(String SheetName, Integer RowNumber) {
+		
+		ExcelReader reader=new ExcelReader();
+		List<Map<String,String>> testData=reader.getData(".\\TestData\\API_MAVERICKS_RESTASSURED_DATA.xlsx", SheetName);
+		String password=testData.get(RowNumber).get("password");
+		utc.TestPostPatientLogin(password);
+		
+	
+	    
+	}
+
+
+}

@@ -1,0 +1,42 @@
+package api.StepDefinitions;
+import io.cucumber.java.en.Then;
+
+import io.cucumber.java.en.When;
+import java.io.IOException;
+import java.text.ParseException;
+import java.util.List;
+import java.util.Map;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.testng.Assert;
+
+import api.Actions.*;
+import api.CRUDOperations.*;
+import api.Payloads.*;
+import io.restassured.response.Response;
+import api.Utilities.ExcelReader;
+import api.GlobalVariables.*;
+
+public class Dietician_Patient_Deletion_Steps {
+	
+	User_Login_TC utc= new User_Login_TC();
+	Patient_TC ptc= new Patient_TC();
+	Morbidity_TC mtc= new Morbidity_TC();
+	
+	@When("User sends HTTPS Request to delete a patient record using patient {int}")
+	public void user_sends_https_request_to_delete_a_patient_record_using_patient(Integer int1) {
+		
+		int1=Env_Var.patientId;
+		ptc.TestDeletePatient(int1);
+	   
+	}
+
+	@Then("User recieves {int} OK with response")
+	public void user_recieves_ok_with_response(Integer int1) {
+		
+		int1=ptc.verify_delete_patient_status();
+		int expected=200;
+		Assert.assertEquals(int1, expected);
+	   
+	}
+
+}

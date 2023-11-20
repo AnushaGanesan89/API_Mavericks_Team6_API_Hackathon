@@ -1,0 +1,23 @@
+package api.CRUDOperations;
+
+
+import io.cucumber.java.en.Then;
+
+import io.cucumber.java.en.When;
+import java.io.IOException;
+import java.text.ParseException;
+import java.util.List;
+import java.util.Map;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.testng.Assert;
+
+import api.Actions.*;
+import api.CRUDOperations.*;
+import api.Payloads.*;
+import io.restassured.response.Response;
+import api.Utilities.ExcelReader;
+import api.GlobalVariables.*;
+
+public class Negative_Scenario_CRUD {
+
+}

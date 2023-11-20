@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="Team6_API_Hackathon_API_Mavericks" tests="12" started="12" failures="7" errors="1" ignored="0">
+  <testsuite name="api.TestRunner.Runner" time="11.727" displayname="Runner" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]">
+    <testsuite name="Dietician API Negative Scenarios" time="11.727" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACpZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzA0TmVnYXRpdmVTY2VuYXJpb3MuZmVhdHVyZXg=]">
+      <testcase name="Check if user" classname="Dietician" time="7.234" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACpZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzA0TmVnYXRpdmVTY2VuYXJpb3MuZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAAAxzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAqWZpbGU6Ly8vQzovVXNlcnMvUHJhc2FubmEvZWNsaXBzZS13b3Jrc3BhY2UvQVBJX01hdmVyaWNrcy9UZWFtNl9BUElfSGFja2F0aG9uL1RlYW02X0FQSV9IYWNrYXRob25fQVBJX01hdmVyaWNrcy8uL3NyYy90ZXN0L3Jlc291cmNlcy9GZWF0dXJlcy8wNE5lZ2F0aXZlU2NlbmFyaW9zLmZlYXR1cmV4]"/>
+      <testcase name="Check if user" classname="Dietician" time="0.36" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACpZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzA0TmVnYXRpdmVTY2VuYXJpb3MuZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAAA1zcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAqWZpbGU6Ly8vQzovVXNlcnMvUHJhc2FubmEvZWNsaXBzZS13b3Jrc3BhY2UvQVBJX01hdmVyaWNrcy9UZWFtNl9BUElfSGFja2F0aG9uL1RlYW02X0FQSV9IYWNrYXRob25fQVBJX01hdmVyaWNrcy8uL3NyYy90ZXN0L3Jlc291cmNlcy9GZWF0dXJlcy8wNE5lZ2F0aXZlU2NlbmFyaW9zLmZlYXR1cmV4]"/>
+      <testcase name="Check if user" classname="Dietician" time="0.362" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACpZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzA0TmVnYXRpdmVTY2VuYXJpb3MuZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAAA5zcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAqWZpbGU6Ly8vQzovVXNlcnMvUHJhc2FubmEvZWNsaXBzZS13b3Jrc3BhY2UvQVBJX01hdmVyaWNrcy9UZWFtNl9BUElfSGFja2F0aG9uL1RlYW02X0FQSV9IYWNrYXRob25fQVBJX01hdmVyaWNrcy8uL3NyYy90ZXN0L3Jlc291cmNlcy9GZWF0dXJlcy8wNE5lZ2F0aXZlU2NlbmFyaW9zLmZlYXR1cmV4]"/>
+      <testcase name="Check if user" classname="Dietician" time="0.255" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACpZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzA0TmVnYXRpdmVTY2VuYXJpb3MuZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAAA9zcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAqWZpbGU6Ly8vQzovVXNlcnMvUHJhc2FubmEvZWNsaXBzZS13b3Jrc3BhY2UvQVBJX01hdmVyaWNrcy9UZWFtNl9BUElfSGFja2F0aG9uL1RlYW02X0FQSV9IYWNrYXRob25fQVBJX01hdmVyaWNrcy8uL3NyYy90ZXN0L3Jlc291cmNlcy9GZWF0dXJlcy8wNE5lZ2F0aXZlU2NlbmFyaW9zLmZlYXR1cmV4]">
+        <error>java.lang.IndexOutOfBoundsException: Index 4 out of bounds for length 4&#13;
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)&#13;
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)&#13;
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)&#13;
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)&#13;
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)&#13;
+	at api.StepDefinitions.All_Negative_Scenarios.user_sends_https_request_and_request_body_with_invalid_blank_emailids_and_passwords_from_the_excel_sheet_and(All_Negative_Scenarios.java:27)&#13;
+	at ✽.User sends HTTPS Request and  request Body with invalid blank emailids and passwords from the excel sheet "Invalid_Credentials" and 4(file:///C:/Users/Prasanna/eclipse-workspace/API_Mavericks/Team6_API_Hackathon/Team6_API_Hackathon_API_Mavericks/./src/test/resources/Features/04NegativeScenarios.feature:8)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Check if user" classname="Dietician" time="0.395" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACpZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzA0TmVnYXRpdmVTY2VuYXJpb3MuZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABpzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAqWZpbGU6Ly8vQzovVXNlcnMvUHJhc2FubmEvZWNsaXBzZS13b3Jrc3BhY2UvQVBJX01hdmVyaWNrcy9UZWFtNl9BUElfSGFja2F0aG9uL1RlYW02X0FQSV9IYWNrYXRob25fQVBJX01hdmVyaWNrcy8uL3NyYy90ZXN0L3Jlc291cmNlcy9GZWF0dXJlcy8wNE5lZ2F0aXZlU2NlbmFyaW9zLmZlYXR1cmV4]"/>
+      <testcase name="Check if user_dietician able to create a patient with valid endpoint and request body for non existing values #1" classname="Check if user_dietician able to create a patient with valid endpoint and request body for non existing values #1" time="0.768" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACpZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzA0TmVnYXRpdmVTY2VuYXJpb3MuZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAACVzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAqWZpbGU6Ly8vQzovVXNlcnMvUHJhc2FubmEvZWNsaXBzZS13b3Jrc3BhY2UvQVBJX01hdmVyaWNrcy9UZWFtNl9BUElfSGFja2F0aG9uL1RlYW02X0FQSV9IYWNrYXRob25fQVBJX01hdmVyaWNrcy8uL3NyYy90ZXN0L3Jlc291cmNlcy9GZWF0dXJlcy8wNE5lZ2F0aXZlU2NlbmFyaW9zLmZlYXR1cmV4]">
+        <failure>java.lang.AssertionError: expected [400] but found [401]&#13;
+	at org.testng.Assert.fail(Assert.java:111)&#13;
+	at org.testng.Assert.failNotEquals(Assert.java:1578)&#13;
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:132)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:1419)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:1439)&#13;
+	at api.StepDefinitions.All_Negative_Scenarios.user_receives_bad_request_status_created(All_Negative_Scenarios.java:56)&#13;
+	at ✽.User receives 400 Bad Request Status created(file:///C:/Users/Prasanna/eclipse-workspace/API_Mavericks/Team6_API_Hackathon/Team6_API_Hackathon_API_Mavericks/./src/test/resources/Features/04NegativeScenarios.feature:33)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="Check if user_dietician able to create a patient with valid endpoint and request body for non existing values #2" classname="Check if user_dietician able to create a patient with valid endpoint and request body for non existing values #2" time="0.578" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACpZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzA0TmVnYXRpdmVTY2VuYXJpb3MuZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAAC9zcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAqWZpbGU6Ly8vQzovVXNlcnMvUHJhc2FubmEvZWNsaXBzZS13b3Jrc3BhY2UvQVBJX01hdmVyaWNrcy9UZWFtNl9BUElfSGFja2F0aG9uL1RlYW02X0FQSV9IYWNrYXRob25fQVBJX01hdmVyaWNrcy8uL3NyYy90ZXN0L3Jlc291cmNlcy9GZWF0dXJlcy8wNE5lZ2F0aXZlU2NlbmFyaW9zLmZlYXR1cmV4]">
+        <failure>java.lang.AssertionError: expected [400] but found [401]&#13;
+	at org.testng.Assert.fail(Assert.java:111)&#13;
+	at org.testng.Assert.failNotEquals(Assert.java:1578)&#13;
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:132)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:1419)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:1439)&#13;
+	at api.StepDefinitions.All_Negative_Scenarios.user_receives_bad_request_status_created_and_patientid_is_not_created(All_Negative_Scenarios.java:76)&#13;
+	at ✽.User receives 400 Bad Request Status created and patientid is not created(file:///C:/Users/Prasanna/eclipse-workspace/API_Mavericks/Team6_API_Hackathon/Team6_API_Hackathon_API_Mavericks/./src/test/resources/Features/04NegativeScenarios.feature:43)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="Check if user_dietician is able to update a patient with invalid patient details and mandatory request body" classname="Check if user_dietician is able to update a patient with invalid patient details and mandatory request body" time="0.984" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACpZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzA0TmVnYXRpdmVTY2VuYXJpb3MuZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAADlzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAqWZpbGU6Ly8vQzovVXNlcnMvUHJhc2FubmEvZWNsaXBzZS13b3Jrc3BhY2UvQVBJX01hdmVyaWNrcy9UZWFtNl9BUElfSGFja2F0aG9uL1RlYW02X0FQSV9IYWNrYXRob25fQVBJX01hdmVyaWNrcy8uL3NyYy90ZXN0L3Jlc291cmNlcy9GZWF0dXJlcy8wNE5lZ2F0aXZlU2NlbmFyaW9zLmZlYXR1cmV4]">
+        <failure>java.lang.AssertionError: expected [400] but found [401]&#13;
+	at org.testng.Assert.fail(Assert.java:111)&#13;
+	at org.testng.Assert.failNotEquals(Assert.java:1578)&#13;
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:132)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:1419)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:1439)&#13;
+	at api.StepDefinitions.All_Negative_Scenarios.user_recieves_bad_request_is_created_and_update_failed(All_Negative_Scenarios.java:97)&#13;
+	at ✽.User recieves 400 bad request is created and update failed(file:///C:/Users/Prasanna/eclipse-workspace/API_Mavericks/Team6_API_Hackathon/Team6_API_Hackathon_API_Mavericks/./src/test/resources/Features/04NegativeScenarios.feature:53)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="Check if user able to retrieve specific patients test report with valid API Endpoint" classname="Check if user able to retrieve specific patients test report with valid API Endpoint" time="0.187" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACpZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzA0TmVnYXRpdmVTY2VuYXJpb3MuZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAAEJzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAqWZpbGU6Ly8vQzovVXNlcnMvUHJhc2FubmEvZWNsaXBzZS13b3Jrc3BhY2UvQVBJX01hdmVyaWNrcy9UZWFtNl9BUElfSGFja2F0aG9uL1RlYW02X0FQSV9IYWNrYXRob25fQVBJX01hdmVyaWNrcy8uL3NyYy90ZXN0L3Jlc291cmNlcy9GZWF0dXJlcy8wNE5lZ2F0aXZlU2NlbmFyaW9zLmZlYXR1cmV4]">
+        <failure>java.lang.AssertionError: expected [404] but found [401]&#13;
+	at org.testng.Assert.fail(Assert.java:111)&#13;
+	at org.testng.Assert.failNotEquals(Assert.java:1578)&#13;
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:132)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:1419)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:1439)&#13;
+	at api.StepDefinitions.All_Negative_Scenarios.user_recieves_not_found_and_reports_failed_to_be_displayed(All_Negative_Scenarios.java:112)&#13;
+	at ✽.User recieves 404 not found and reports failed to be displayed.(file:///C:/Users/Prasanna/eclipse-workspace/API_Mavericks/Team6_API_Hackathon/Team6_API_Hackathon_API_Mavericks/./src/test/resources/Features/04NegativeScenarios.feature:63)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="Check if user able to retrieve specific patients test report by fileid with valid API Endpoint" classname="Check if user able to retrieve specific patients test report by fileid with valid API Endpoint" time="0.19" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACpZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzA0TmVnYXRpdmVTY2VuYXJpb3MuZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAAEtzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAqWZpbGU6Ly8vQzovVXNlcnMvUHJhc2FubmEvZWNsaXBzZS13b3Jrc3BhY2UvQVBJX01hdmVyaWNrcy9UZWFtNl9BUElfSGFja2F0aG9uL1RlYW02X0FQSV9IYWNrYXRob25fQVBJX01hdmVyaWNrcy8uL3NyYy90ZXN0L3Jlc291cmNlcy9GZWF0dXJlcy8wNE5lZ2F0aXZlU2NlbmFyaW9zLmZlYXR1cmV4]">
+        <failure>java.lang.AssertionError: expected [404] but found [401]&#13;
+	at org.testng.Assert.fail(Assert.java:111)&#13;
+	at org.testng.Assert.failNotEquals(Assert.java:1578)&#13;
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:132)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:1419)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:1439)&#13;
+	at api.StepDefinitions.All_Negative_Scenarios.user_recieves_not_found_with_no_patient_test_report_details(All_Negative_Scenarios.java:128)&#13;
+	at ✽.User recieves 404 not found with no patient test report details(file:///C:/Users/Prasanna/eclipse-workspace/API_Mavericks/Team6_API_Hackathon/Team6_API_Hackathon_API_Mavericks/./src/test/resources/Features/04NegativeScenarios.feature:72)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="Check if user able to retrieve a morbidity information with valid Morbidity TestName" classname="Check if user able to retrieve a morbidity information with valid Morbidity TestName" time="0.225" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACpZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzA0TmVnYXRpdmVTY2VuYXJpb3MuZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAAFVzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAqWZpbGU6Ly8vQzovVXNlcnMvUHJhc2FubmEvZWNsaXBzZS13b3Jrc3BhY2UvQVBJX01hdmVyaWNrcy9UZWFtNl9BUElfSGFja2F0aG9uL1RlYW02X0FQSV9IYWNrYXRob25fQVBJX01hdmVyaWNrcy8uL3NyYy90ZXN0L3Jlc291cmNlcy9GZWF0dXJlcy8wNE5lZ2F0aXZlU2NlbmFyaW9zLmZlYXR1cmV4]">
+        <failure>java.lang.AssertionError: expected [400] but found [401]&#13;
+	at org.testng.Assert.fail(Assert.java:111)&#13;
+	at org.testng.Assert.failNotEquals(Assert.java:1578)&#13;
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:132)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:1419)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:1439)&#13;
+	at api.StepDefinitions.All_Negative_Scenarios.user_recieves_bad_request_with_no_details_of_morbidity_test_name_getting_displayed(All_Negative_Scenarios.java:143)&#13;
+	at ✽.User recieves 400 Bad Request with no details of morbidity test name getting displayed(file:///C:/Users/Prasanna/eclipse-workspace/API_Mavericks/Team6_API_Hackathon/Team6_API_Hackathon_API_Mavericks/./src/test/resources/Features/04NegativeScenarios.feature:81)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="Check if user" classname="Dietician" time="0.188" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACpZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzA0TmVnYXRpdmVTY2VuYXJpb3MuZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAAGBzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAqWZpbGU6Ly8vQzovVXNlcnMvUHJhc2FubmEvZWNsaXBzZS13b3Jrc3BhY2UvQVBJX01hdmVyaWNrcy9UZWFtNl9BUElfSGFja2F0aG9uL1RlYW02X0FQSV9IYWNrYXRob25fQVBJX01hdmVyaWNrcy8uL3NyYy90ZXN0L3Jlc291cmNlcy9GZWF0dXJlcy8wNE5lZ2F0aXZlU2NlbmFyaW9zLmZlYXR1cmV4]">
+        <failure>java.lang.AssertionError: expected [404] but found [401]&#13;
+	at org.testng.Assert.fail(Assert.java:111)&#13;
+	at org.testng.Assert.failNotEquals(Assert.java:1578)&#13;
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:132)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:1419)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:1439)&#13;
+	at api.StepDefinitions.All_Negative_Scenarios.user_recieves_not_found_with_response(All_Negative_Scenarios.java:158)&#13;
+	at ✽.User recieves 404 not found with response(file:///C:/Users/Prasanna/eclipse-workspace/API_Mavericks/Team6_API_Hackathon/Team6_API_Hackathon_API_Mavericks/./src/test/resources/Features/04NegativeScenarios.feature:92)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

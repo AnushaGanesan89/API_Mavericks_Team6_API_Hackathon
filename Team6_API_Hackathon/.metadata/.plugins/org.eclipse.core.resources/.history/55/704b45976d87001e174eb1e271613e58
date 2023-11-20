@@ -1,0 +1,141 @@
+package api.StepDefinitions;
+import io.cucumber.java.en.Then;
+
+import io.cucumber.java.en.When;
+import java.io.IOException;
+import java.text.ParseException;
+import java.util.List;
+import java.util.Map;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.testng.Assert;
+
+import api.Actions.*;
+import api.CRUDOperations.*;
+import api.Payloads.*;
+import io.restassured.response.Response;
+import api.Utilities.ExcelReader;
+import api.GlobalVariables.*;
+
+public class All_Negative_Scenarios {
+	
+	Negative_Scenarios_TC ntc= new Negative_Scenarios_TC();
+	
+	@When("User sends HTTPS Request and  request Body with invalid blank emailids and passwords from the excel sheet {string} and {int}")
+	public void user_sends_https_request_and_request_body_with_invalid_blank_emailids_and_passwords_from_the_excel_sheet_and(String SheetName, Integer RowNumber) throws InvalidFormatException, IOException {
+		ExcelReader reader=new ExcelReader();
+		List<Map<String,String>> testData=reader.getData(".\\TestData\\API_MAVERICKS_RESTASSURED_DATA.xlsx", SheetName);
+		String password=testData.get(RowNumber).get("password");
+		String userLoginEmail=testData.get(RowNumber).get("userLoginEmail");
+		ntc.TestPostUserLogin(password, userLoginEmail);
+	}
+
+	@Then("User receives {int} Unauthorized Status in the response body")
+	public void user_receives_unauthorized_status_in_the_response_body(Integer int1) {
+		 int1= ntc.verify_post_UserLogin_status();
+		    int Expected=401;
+		    Assert.assertEquals(int1, Expected);
+	    
+	}
+
+	@When("User sends HTTPS Request and request Body without mandatory fields tries to create a patient records from the excel sheet {string} and {int}")
+	public void user_sends_https_request_and_request_body_without_mandatory_fields_tries_to_create_a_patient_records_from_the_excel_sheet_and(String SheetName, Integer RowNumber) throws InvalidFormatException, IOException, ParseException {
+	    
+		ExcelReader reader=new ExcelReader();
+		List<Map<String,String>> testData=reader.getData(".\\TestData\\API_MAVERICKS_RESTASSURED_DATA.xlsx", SheetName);
+		
+		String Allergy=testData.get(RowNumber).get("Allergy");
+		String FoodCategory=testData.get(RowNumber).get("FoodCategory");
+		ntc.TestPostPatient(Allergy, FoodCategory);
+		
+	}
+
+	@Then("User receives {int} Bad Request Status created")
+	public void user_receives_bad_request_status_created(Integer int1) {
+		 int1= ntc.verify_post_patient_status();
+		    int Expected=400;
+		    Assert.assertEquals(int1, Expected);
+	   
+	}
+
+	@When("User sends HTTPS Request and request Body without patientinfo and attaches only the file tries to create a patient records from the excel sheet {string} and {int}")
+	public void user_sends_https_request_and_request_body_without_patientinfo_and_attaches_only_the_file_tries_to_create_a_patient_records_from_the_excel_sheet_and(String SheetName, Integer RowNumber) throws InvalidFormatException, IOException, ParseException {
+		ExcelReader reader=new ExcelReader();
+		List<Map<String,String>> testData=reader.getData(".\\TestData\\API_MAVERICKS_RESTASSURED_DATA.xlsx", SheetName);
+		
+		String Allergy=testData.get(RowNumber).get("Allergy");
+		String FoodCategory=testData.get(RowNumber).get("FoodCategory");
+		ntc.TestPostPatient_noPatientInfo(Allergy, FoodCategory);
+		
+		
+	}
+
+	@Then("User receives {int} Bad Request Status created and patientid is not created")
+	public void user_receives_bad_request_status_created_and_patientid_is_not_created(Integer int1) {
+		 int1= ntc.verify_post_nopatientinfo_status();
+		    int Expected=400;
+		    Assert.assertEquals(int1, Expected);
+	   
+	}
+
+	@When("User sends HTTPS Request and request Body with mandatory and additional  fields to update a patient records with invalid patientID from the excel sheet {string} and {int}")
+	public void user_sends_https_request_and_request_body_with_mandatory_and_additional_fields_to_update_a_patient_records_with_invalid_patient_id_from_the_excel_sheet_and(String SheetName, Integer RowNumber) {
+		ExcelReader reader=new ExcelReader();
+		List<Map<String,String>> testData=reader.getData(".\\TestData\\API_MAVERICKS_RESTASSURED_DATA.xlsx", SheetName);
+		
+		String Allergy=testData.get(RowNumber).get("Allergy");
+		String FoodCategory=testData.get(RowNumber).get("FoodCategory");
+		
+		
+		
+		ptc.Update_Patient(Allergy,FoodCategory);
+	}
+
+	@Then("User recieves {int} bad request is created and update failed")
+	public void user_recieves_bad_request_is_created_and_update_failed(Integer int1) {
+	   
+	}
+
+	@When("User sends HTTPS Request with invalid patient id {int}")
+	public void user_sends_https_request_with_invalid_patient_id(Integer int1) {
+	   
+	}
+
+	@Then("User recieves {int} not found and reports failed to be displayed.")
+	public void user_recieves_not_found_and_reports_failed_to_be_displayed(Integer int1) {
+	   
+	}
+
+	@When("User sends HTTPS Request with invalid fileid {string}")
+	public void user_sends_https_request_with_invalid_fileid(String string) {
+	  
+	}
+
+	@Then("User recieves {int} not found with no patient test report details")
+	public void user_recieves_not_found_with_no_patient_test_report_details(Integer int1) {
+	   
+	}
+
+	@When("User sends HTTPS Request with invalid  morbidity test name {string}")
+	public void user_sends_https_request_with_invalid_morbidity_test_name(String string) {
+	   
+	}
+
+	@Then("User recieves {int} Bad Request with no details of morbidity test name getting displayed")
+	public void user_recieves_bad_request_with_no_details_of_morbidity_test_name_getting_displayed(Integer int1) {
+	  
+	}
+
+	@When("User sends HTTPS Request to delete a patient record using invalid patient {int}")
+	public void user_sends_https_request_to_delete_a_patient_record_using_invalid_patient(Integer int1) {
+	   
+	}
+
+	@Then("User recieves {int} not found with response")
+	public void user_recieves_not_found_with_response(Integer int1) {
+	     
+	}
+
+
+
+
+}

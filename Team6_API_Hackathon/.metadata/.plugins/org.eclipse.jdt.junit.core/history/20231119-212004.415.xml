@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="Team6_API_Hackathon_API_Mavericks" tests="4" started="4" failures="1" errors="2" ignored="0">
+  <testsuite name="api.TestRunner.Runner" time="7.738" displayname="Runner" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]">
+    <testsuite name="Patient Role Module Positive Scenarios" time="7.738" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACfZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzAyUGF0aWVudC5mZWF0dXJleA==]">
+      <testcase name="Check if user" classname="Patient" time="7.043" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACfZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzAyUGF0aWVudC5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAAAtzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAn2ZpbGU6Ly8vQzovVXNlcnMvUHJhc2FubmEvZWNsaXBzZS13b3Jrc3BhY2UvQVBJX01hdmVyaWNrcy9UZWFtNl9BUElfSGFja2F0aG9uL1RlYW02X0FQSV9IYWNrYXRob25fQVBJX01hdmVyaWNrcy8uL3NyYy90ZXN0L3Jlc291cmNlcy9GZWF0dXJlcy8wMlBhdGllbnQuZmVhdHVyZXg=]">
+        <error>java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.getStatusCode()" because "this.response" is null&#13;
+	at api.Actions.User_Login_TC.verify_post_UserLogin_status(User_Login_TC.java:39)&#13;
+	at api.StepDefinitions.Dietician_Role_Steps.user_receives_ok_status_with_response_body_and_successfully_logs_in(Dietician_Role_Steps.java:38)&#13;
+	at ✽.User receives 201 Ok Status with response body and successfully logs in(file:///C:/Users/Prasanna/eclipse-workspace/API_Mavericks/Team6_API_Hackathon/Team6_API_Hackathon_API_Mavericks/./src/test/resources/Features/02Patient.feature:8)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Check if user able to retrieve specific patients test report with valid API Endpoint" classname="Check if user able to retrieve specific patients test report with valid API Endpoint" time="0.415" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACfZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzAyUGF0aWVudC5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABVzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAn2ZpbGU6Ly8vQzovVXNlcnMvUHJhc2FubmEvZWNsaXBzZS13b3Jrc3BhY2UvQVBJX01hdmVyaWNrcy9UZWFtNl9BUElfSGFja2F0aG9uL1RlYW02X0FQSV9IYWNrYXRob25fQVBJX01hdmVyaWNrcy8uL3NyYy90ZXN0L3Jlc291cmNlcy9GZWF0dXJlcy8wMlBhdGllbnQuZmVhdHVyZXg=]">
+        <failure>java.lang.AssertionError: expected [200] but found [401]&#13;
+	at org.testng.Assert.fail(Assert.java:111)&#13;
+	at org.testng.Assert.failNotEquals(Assert.java:1578)&#13;
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:132)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:1419)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:1439)&#13;
+	at api.StepDefinitions.Dietician_Role_Steps.user_recieves_ok_with_patient_test_report_details(Dietician_Role_Steps.java:113)&#13;
+	at ✽.User recieves 200 OK with patient test report details(file:///C:/Users/Prasanna/eclipse-workspace/API_Mavericks/Team6_API_Hackathon/Team6_API_Hackathon_API_Mavericks/./src/test/resources/Features/02Patient.feature:18)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="Check if user able to retrieve specific patients test report by fileid with valid API Endpoint" classname="Check if user able to retrieve specific patients test report by fileid with valid API Endpoint" time="0.07" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACfZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzAyUGF0aWVudC5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAAB9zcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAn2ZpbGU6Ly8vQzovVXNlcnMvUHJhc2FubmEvZWNsaXBzZS13b3Jrc3BhY2UvQVBJX01hdmVyaWNrcy9UZWFtNl9BUElfSGFja2F0aG9uL1RlYW02X0FQSV9IYWNrYXRob25fQVBJX01hdmVyaWNrcy8uL3NyYy90ZXN0L3Jlc291cmNlcy9GZWF0dXJlcy8wMlBhdGllbnQuZmVhdHVyZXg=]">
+        <error>java.lang.IllegalArgumentException: parameterValue cannot be null&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)&#13;
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)&#13;
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)&#13;
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)&#13;
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)&#13;
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)&#13;
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)&#13;
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.pathParam(RequestSpecificationImpl.groovy:515)&#13;
+	at api.CRUDOperations.Patient_CRUD.get_Patient_Using_FileID(Patient_CRUD.java:104)&#13;
+	at api.Actions.Patient_TC.Get_PatientFiles_UsingFileID(Patient_TC.java:110)&#13;
+	at api.StepDefinitions.Dietician_Role_Steps.user_sends_https_request_with_valid_fileid(Dietician_Role_Steps.java:120)&#13;
+	at ✽.User sends HTTPS Request with valid fileid "value"(file:///C:/Users/Prasanna/eclipse-workspace/API_Mavericks/Team6_API_Hackathon/Team6_API_Hackathon_API_Mavericks/./src/test/resources/Features/02Patient.feature:27)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Check if user able to logout from Dietician API" classname="Check if user able to logout from Dietician API" time="0.209" uniqueid="[engine:junit-vintage]/[runner:api.TestRunner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACfZmlsZTovLy9DOi9Vc2Vycy9QcmFzYW5uYS9lY2xpcHNlLXdvcmtzcGFjZS9BUElfTWF2ZXJpY2tzL1RlYW02X0FQSV9IYWNrYXRob24vVGVhbTZfQVBJX0hhY2thdGhvbl9BUElfTWF2ZXJpY2tzLy4vc3JjL3Rlc3QvcmVzb3VyY2VzL0ZlYXR1cmVzLzAyUGF0aWVudC5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAACJzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAn2ZpbGU6Ly8vQzovVXNlcnMvUHJhc2FubmEvZWNsaXBzZS13b3Jrc3BhY2UvQVBJX01hdmVyaWNrcy9UZWFtNl9BUElfSGFja2F0aG9uL1RlYW02X0FQSV9IYWNrYXRob25fQVBJX01hdmVyaWNrcy8uL3NyYy90ZXN0L3Jlc291cmNlcy9GZWF0dXJlcy8wMlBhdGllbnQuZmVhdHVyZXg=]"/>
+    </testsuite>
+  </testsuite>
+</testrun>

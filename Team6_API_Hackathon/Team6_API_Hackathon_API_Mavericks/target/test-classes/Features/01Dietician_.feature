@@ -8,7 +8,7 @@ When User sends HTTPS Request and  request Body with valid emailid and password 
 Then User receives 201 Ok Status with response body and successfully logs in
 Examples: 
       |SheetName           | RowNumber |
-      |Dietician_Login     |         0 |
+      |User_Login          |         0 |
 
 #Dietician Creates a patient details
 Scenario Outline: Check if user_dietician able to create a patient with valid endpoint and request body for non existing values
@@ -45,7 +45,7 @@ When User sends HTTPS Request with valid patient id <ID>
 Then User recieves 200 OK with patient test report details
 Examples:
 |ID|
-|474|
+|0|
 
 
 #Dietician retrieves file of a patient
@@ -55,24 +55,24 @@ When User sends HTTPS Request with valid fileid "<FID>"
 Then User recieves 200 OK with patient test report details
 Examples:
 |FID|
-|474edght|
+|value|
 
 #Dietician gets all morbidities
 Scenario: Check if user able to retrieve all morbidity information 
 Given: User creates GET Request for the Dietition endpoint to retrieve all morbidity details
 When User sends HTTPS Request to retrieve all morbidity details
-Then User recieves 200 OK with response body 
+Then User recieves 200 OK with response body with all morbidities
 
 
 #Dietician gets morbidity by test name
 Scenario Outline: Check if user able to retrieve a morbidity information with valid Morbidity TestName
 Given: User creates GET Request for the Dietition endpoint to retrieve a morbidity information with valid Morbidity TestName
 When User sends HTTPS Request with morbidity test name "<Morbidity Test name>"
-Then User receives 200 OK Status with response body
+Then User recieves 200 OK with response body with the details of morbidity test name
 
 Examples:
 |Morbidity Test name|
-|TSH|
+|value|
     
 
 #Dietician logs out

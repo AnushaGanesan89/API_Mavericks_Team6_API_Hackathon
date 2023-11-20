@@ -1,10 +1,13 @@
 package api.Actions;
 
 
+import static io.restassured.RestAssured.given;
+
 import api.CRUDOperations.*;
 import api.Payloads.*;
 import api.Utilities.Loggerload;
 import api.GlobalVariables.*;
+import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
@@ -14,6 +17,7 @@ public class User_Login_TC {
 	String extractresponse;
 	JsonPath jsonPathEvaluator;
 	
+	//Dietician Login
 	public void TestPostUserLogin(String password,String userLoginEmail)
 	{
 		User_Login_POJO userpayload=new User_Login_POJO();
@@ -36,4 +40,45 @@ public int verify_post_UserLogin_status() {
 		return code;
 
 	}
+
+//Patient Login
+
+public void TestPostPatientLogin(String password)
+{
+	User_Login_POJO userpayload=new User_Login_POJO();
+	userpayload.setUserLoginEmail(Env_Var.Email);
+	userpayload.setPassword(password);
+	response= User_Login_CRUD.User_Login(userpayload);
+	extractresponse=response.then().log().all().extract().response().asString();
+	JsonPath js= new JsonPath(extractresponse);
+	String tkn= js.getString("token");
+	System.out.println("Token is" +tkn);
+	Env_Var.token=tkn;
+	
+	
+}
+
+public int verify_post_Patient_Login_status() {
+	
+	int code;
+	code=response.getStatusCode();
+	return code;
+
+}
+
+
+public void Get_Logout()
+{
+	
+	response= User_Login_CRUD.Logout_User();
+	response.then();
+}
+
+public int verify_get_logout_status() {
+	
+	int code;
+	code=response.getStatusCode();
+	return code;
+
+}
 }

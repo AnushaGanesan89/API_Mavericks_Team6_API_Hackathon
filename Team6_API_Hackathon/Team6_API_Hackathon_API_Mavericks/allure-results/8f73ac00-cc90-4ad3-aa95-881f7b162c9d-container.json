@@ -1,1 +1,0 @@
-{"uuid":"8f73ac00-cc90-4ad3-aa95-881f7b162c9d","name":"Scenario Outline: Check if user_dietician able to create a patient with valid endpoint and request body for non existing values","children":["978d7706-4411-466b-ac5f-d74e2ad33d3b"],"befores":[],"afters":[],"start":1700265397148,"stop":1700265398049}

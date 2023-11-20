@@ -1,0 +1,5 @@
+package api.CRUDOperations;
+
+public class Negative_Scenario_CRUD {
+
+}

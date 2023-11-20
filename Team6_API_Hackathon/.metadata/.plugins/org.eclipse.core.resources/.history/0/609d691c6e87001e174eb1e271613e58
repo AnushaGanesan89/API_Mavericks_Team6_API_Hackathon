@@ -1,0 +1,118 @@
+package api.CRUDOperations;
+
+
+import static io.restassured.RestAssured.given;
+
+import java.io.File;
+import java.util.ResourceBundle;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.google.gson.Gson;
+
+import api.Payloads.*;
+import io.restassured.RestAssured;
+import io.restassured.config.EncoderConfig;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import api.GlobalVariables.*;
+
+public class Negative_Scenario_CRUD {
+	
+	static String token= Env_Var.token;
+
+	static ResourceBundle getURL()
+	{
+		ResourceBundle endurl=ResourceBundle.getBundle("EndPoints");
+		return endurl;
+	}
+
+	// To perform User_Login Request
+	
+	public static Response User_Login(User_Login_POJO userpayload)
+	{
+		String Login_Post= getURL().getString("User_Login_Post");
+		Response tkn= given().auth().none()
+				 .contentType(ContentType.JSON)
+				.accept(ContentType.JSON)
+				.body(userpayload)
+				.when()
+				.post(Login_Post);
+		System.out.println(tkn);
+		return tkn;
+	}
+	
+	public static Response Patient_Creation(Patient_POJO patientpayload) throws JsonProcessingException
+	{
+		String Patient_Post= getURL().getString("Create_Patient_Post");
+		File data=new File("C:\\Users\\Prasanna\\eclipse-workspace\\API_Mavericks\\Team6_API_Hackathon\\Team6_API_Hackathon_API_Mavericks\\TestData\\Hypo Thyroid-Report.pdf");
+		
+		Gson gson=new Gson();
+		String data1=gson.toJson(patientpayload);
+		System.out.println("My data:" +data1);
+		Response ID= given()
+				.header("Authorization", "Bearer " +token)
+				.header("Content-Type","multipart/form-data")
+				 .formParam("patientInfo",data1)
+								 .multiPart("file", data,"application/pdf")
+				.when().log().all().config(RestAssured.config()
+						.encoderConfig(EncoderConfig.encoderConfig()
+								.encodeContentTypeAs("multipart/form-data", ContentType.TEXT)))
+				.post(Patient_Post);
+				
+				
+		//System.out.println(ID);
+		return ID;
+	}
+	
+	public static Response Patient_Creation_noPatientInfo(Patient_POJO patientpayload) throws JsonProcessingException
+	{
+		String Patient_Post= getURL().getString("Create_Patient_Post");
+		File data=new File("C:\\Users\\Prasanna\\eclipse-workspace\\API_Mavericks\\Team6_API_Hackathon\\Team6_API_Hackathon_API_Mavericks\\TestData\\Hypo Thyroid-Report.pdf");
+		
+		Gson gson=new Gson();
+		String data1=gson.toJson(patientpayload);
+		System.out.println("My data:" +data1);
+		Response ID= given()
+				.header("Authorization", "Bearer " +token)
+				.header("Content-Type","multipart/form-data")
+				 
+								 .multiPart("file", data,"application/pdf")
+				.when().log().all().config(RestAssured.config()
+						.encoderConfig(EncoderConfig.encoderConfig()
+								.encodeContentTypeAs("multipart/form-data", ContentType.TEXT)))
+				.post(Patient_Post);
+				
+				
+		//System.out.println(ID);
+		return ID;
+	}
+	
+	public static Response Update_Patient_Details(int pid,Patient_POJO patientpayload) throws JsonProcessingException
+	{
+		//Env_Var.patientId=pid;
+	
+		String Patient_Put= getURL().getString("Update_Patient_Put");
+		
+		File data=new File("C:\\Users\\Prasanna\\eclipse-workspace\\API_Mavericks\\Team6_API_Hackathon\\Team6_API_Hackathon_API_Mavericks\\TestData\\Hypo Thyroid-Report.pdf");
+
+		Gson gson=new Gson();
+		String data1=gson.toJson(patientpayload);
+		System.out.println(data1);
+		Response ID= given()
+				.header("Authorization", "Bearer " +token)
+				.header("Content-Type","multipart/form-data")
+				.pathParam("patientId", pid)
+				 .formParam("patientInfo",data1)
+								.multiPart("file", data,"application/pdf")
+				 
+				.when().log().all().config(RestAssured.config()
+						.encoderConfig(EncoderConfig.encoderConfig()
+								.encodeContentTypeAs("multipart/form-data", ContentType.TEXT)))
+				.put(Patient_Put);
+				
+				
+		
+		return ID;
+	}
+
+}

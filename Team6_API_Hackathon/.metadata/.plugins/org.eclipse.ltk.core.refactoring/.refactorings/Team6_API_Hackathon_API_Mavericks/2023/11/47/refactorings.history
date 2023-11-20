@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Team6_API_Hackathon_API_Mavericks&apos;&#x0D;&#x0A;- Original project: &apos;Team6_API_Hackathon_API_Mavericks&apos;&#x0D;&#x0A;- Original element: &apos;03PatientDeletion_Using_Dietician_ID&apos;" description="Delete element" element1="src/test/resources/Features/03PatientDeletion_Using_Dietician_ID" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1700429366465" subPackages="false" version="1.0"/>
+</session>
