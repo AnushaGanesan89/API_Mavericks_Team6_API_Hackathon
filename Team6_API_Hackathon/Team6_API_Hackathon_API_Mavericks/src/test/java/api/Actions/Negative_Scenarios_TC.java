@@ -33,8 +33,10 @@ public class Negative_Scenarios_TC {
 		extractresponse=response.then().log().all().extract().response().asString();
 		JsonPath js= new JsonPath(extractresponse);
 		String tkn= js.getString("token");
-		System.out.println("Token is" +tkn);
+		//System.out.println("Token is" +tkn);
 		Env_Var.token=tkn;
+		Loggerload.info("Login failue: Invalid Credetials!Please enter your valid email address and password*************");
+
 		
 		
 	}
@@ -58,7 +60,8 @@ public void TestPostPatient(String Allergy,String FoodCategory) throws ParseExce
 	response= Negative_Scenario_CRUD.Patient_Creation(patientpayload);
 	response.then().log().all();
 	
-	
+	Loggerload.info("Action failed: Please provide all mandatory details to create a new patient");
+
 	
 	
 }
@@ -81,6 +84,8 @@ public void TestPostPatient_noPatientInfo(String Allergy,String FoodCategory) th
 	
 	response= Negative_Scenario_CRUD.Patient_Creation_noPatientInfo(patientpayload);
 	response.then().log().all();
+	Loggerload.info("Action failed:No Patient Info Found !!!");
+
 	
 	
 	
@@ -110,6 +115,8 @@ public void Update_Patient(String Allergy,String FoodCategory) throws ParseExcep
 	patientpayload.setDateOfBirth(DateOfBirth);
 	response= Negative_Scenario_CRUD.Update_Patient_Details(Env_Var.invalid_patientId,patientpayload);
 	response.then().log().all();
+	Loggerload.info("Action failed: Please Provide the correct patient Id to update the records");
+
 		
 }
 public int verify_put_patient_status() {
@@ -126,6 +133,8 @@ public void Get_PatientDetails_UsingID(int id)
 		
 		response= Negative_Scenario_CRUD.get_Using_PatientID(id);
 		response.then();
+		Loggerload.info("Action failed: Incorrect patientId!Records cannot be viewed");
+
 		
 
 	}
@@ -143,7 +152,8 @@ public void Get_PatientFiles_UsingFileID(String id)
 		
 		response= Negative_Scenario_CRUD.get_Patient_Using_FileID(id);
 		response.then();
-		
+		Loggerload.info("Action failed: Incorrect FileId!Records cannot be viewed");
+
 		
 
 	}
@@ -162,6 +172,8 @@ public void Get_MorbidityDetails_UsingName(String name)
 		
 		response= Negative_Scenario_CRUD.get_Morbidity_Using_Name(name);
 		response.then();
+		Loggerload.info("Action failed: Morbidity Name doesnt match!Records cannot be viewed");
+
 		
 		
 
@@ -181,6 +193,8 @@ public void TestDeletePatient(int id )
 
 	response= Negative_Scenario_CRUD.Delete_Patient_by_Id(id);
 	response.then();
+	Loggerload.info("Action failed: Patient Id doesnt exists to perform delete actions!!");
+
 	
 
 }

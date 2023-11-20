@@ -1,0 +1,28 @@
+['INFO ]2023-11-20 07:31:16,070(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-***************** Dietician has logged in Successfully***************
+['INFO ]2023-11-20 07:31:17,750(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-***************** Patient Id  has been created  Successfully***************
+['INFO ]2023-11-20 07:31:18,065(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-*************You have retrieved ALL patients details in the system***************
+['INFO ]2023-11-20 07:31:18,783(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-The records associated with this patient Id has been successfully updated:3950
+['INFO ]2023-11-20 07:31:19,149(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-These are the records associated with this patient Id:3950
+['INFO ]2023-11-20 07:31:19,388(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-These are the records associated with this patient's FileId:655b51970cbfb136eab0d65e
+['INFO ]2023-11-20 07:31:19,577(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-********You have retrieved ALL Morbidity details in the system*************
+['INFO ]2023-11-20 07:31:19,802(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-You have retrieved the morbidity details associated with this Morbidity name:TSH
+['INFO ]2023-11-20 07:31:20,034(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-***************** User has logged out Successfully***************
+['INFO ]2023-11-20 07:31:20,468(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-***************** Patient has logged in Successfully***************
+['INFO ]2023-11-20 07:31:20,739(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-These are the records associated with this patient Id:3950
+['INFO ]2023-11-20 07:31:20,918(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-These are the records associated with this patient's FileId:655b51970cbfb136eab0d65e
+['INFO ]2023-11-20 07:31:21,104(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-***************** User has logged out Successfully***************
+['INFO ]2023-11-20 07:31:21,537(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-***************** Dietician has logged in Successfully***************
+['INFO ]2023-11-20 07:31:21,733(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-The records associated with this patient Id has been deleted successfully: 3950
+['INFO ]2023-11-20 07:31:21,929(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-***************** User has logged out Successfully***************
+['INFO ]2023-11-20 07:31:22,618(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-Loggin failue: Invalid Credetials!Please enter your valid email address and password*************
+['INFO ]2023-11-20 07:31:22,951(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-Loggin failue: Invalid Credetials!Please enter your valid email address and password*************
+['INFO ]2023-11-20 07:31:23,292(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-Loggin failue: Invalid Credetials!Please enter your valid email address and password*************
+['INFO ]2023-11-20 07:31:23,739(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-Loggin failue: Invalid Credetials!Please enter your valid email address and password*************
+['INFO ]2023-11-20 07:31:24,049(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-***************** Dietician has logged in Successfully***************
+['INFO ]2023-11-20 07:31:24,376(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-Action failed: Please provide all mandatory details to create a new patient
+['INFO ]2023-11-20 07:31:24,757(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-Action failed:No Patient Info Found !!!
+['INFO ]2023-11-20 07:31:25,180(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-Action failed: Please Provide the correct patient Id to update the records
+['INFO ]2023-11-20 07:31:25,410(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-Action failed: Incorrect patientId!Records cannot be viewed
+['INFO ]2023-11-20 07:31:25,593(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-Action failed: Incorrect FileId!Records cannot be viewed
+['INFO ]2023-11-20 07:31:25,779(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-Action failed: Morbidity Name doesnt match!Records cannot be viewed
+['INFO ]2023-11-20 07:31:25,948(YYYY-MM-ddHH:MM:ss.SSS][main]api.Utilities.Loggerload1)-Action failed: Patient Id doesnt exists to perform delete actions!!

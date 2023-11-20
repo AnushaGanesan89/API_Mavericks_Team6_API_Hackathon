@@ -27,8 +27,9 @@ public class User_Login_TC {
 		extractresponse=response.then().log().all().extract().response().asString();
 		JsonPath js= new JsonPath(extractresponse);
 		String tkn= js.getString("token");
-		System.out.println("Token is" +tkn);
+		//System.out.println("Token is" +tkn);
 		Env_Var.token=tkn;
+		Loggerload.info("***************** Dietician has logged in Successfully***************");
 		
 		
 	}
@@ -52,8 +53,10 @@ public void TestPostPatientLogin(String password)
 	extractresponse=response.then().log().all().extract().response().asString();
 	JsonPath js= new JsonPath(extractresponse);
 	String tkn= js.getString("token");
-	System.out.println("Token is" +tkn);
+	//System.out.println("Token is" +tkn);
 	Env_Var.token=tkn;
+	Loggerload.info("***************** Patient has logged in Successfully***************");
+
 	
 	
 }
@@ -72,6 +75,8 @@ public void Get_Logout()
 	
 	response= User_Login_CRUD.Logout_User();
 	response.then();
+	Loggerload.info("***************** User has logged out Successfully***************");
+
 }
 
 public int verify_get_logout_status() {

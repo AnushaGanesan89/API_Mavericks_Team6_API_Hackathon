@@ -49,11 +49,13 @@ public class Patient_TC {
 		JsonPath js= new JsonPath(extractresponse);
 		String email= js.getString("Email");
 		int pid= js.getInt("patientId");
-		System.out.println("email is" +email);
-		System.out.println("pid is" +pid);
+		//System.out.println("email is" +email);
+		//System.out.println("pid is" +pid);
 		
 		Env_Var.Email=email;
-		Env_Var.patientId=pid;;
+		Env_Var.patientId=pid;
+		Loggerload.info("***************** Patient Id  has been created  Successfully***************");
+
 		
 		
 		
@@ -74,6 +76,8 @@ public void Get_All_Patient()
 	
 	response= Patient_CRUD.getAll_Patient();
 	response.then();
+	Loggerload.info("*************You have retrieved ALL patients details in the system***************");
+
 }
 
 public int verify_get_patient_status() {
@@ -92,8 +96,10 @@ public void Get_PatientDetails_UsingID(int id)
 		extractresponse=response.then().log().all().extract().response().asString();
 		JsonPath js= new JsonPath(extractresponse);
 		String fileId= js.getString("fileId[0]");
-		System.out.println("File id is:" +fileId);
+		//System.out.println("File id is:" +fileId);
 		Env_Var.fileid=fileId;
+		Loggerload.info("These are the records associated with this patient Id:"+Env_Var.patientId);
+
 		
 
 	}
@@ -111,6 +117,8 @@ public void Get_PatientFiles_UsingFileID(String id)
 		
 		response= Patient_CRUD.get_Patient_Using_FileID(id);
 		response.then();
+		Loggerload.info("These are the records associated with this patient's FileId:"+Env_Var.fileid);
+
 		
 		
 
@@ -145,11 +153,13 @@ public void Update_Patient(String Allergy,String FoodCategory) throws ParseExcep
 	JsonPath js= new JsonPath(extractresponse);
 	String email= js.getString("Email");
 	int pid= js.getInt("patientId");
-	System.out.println("email is" +email);
-	System.out.println("pid is" +pid);
+	//System.out.println("email is" +email);
+	//System.out.println("pid is" +pid);
 	
 	Env_Var.Email=email;
 	Env_Var.patientId=pid;
+	
+	Loggerload.info("The records associated with this patient Id has been successfully updated:"+Env_Var.patientId);
 
 	
 }
@@ -170,7 +180,7 @@ public void TestDeletePatient(int id )
 
 	response= Patient_CRUD.Delete_Patient_by_Id(id);
 	response.then();
-	
+	Loggerload.info("The records associated with this patient Id has been deleted successfully: "+Env_Var.patientId);
 
 }
 

@@ -36,32 +36,20 @@ public class Patient_CRUD {
 		public static Response Patient_Creation(Patient_POJO patientpayload) throws JsonProcessingException
 		{
 			String Patient_Post= getURL().getString("Create_Patient_Post");
-			File data=new File("C:\\Users\\Prasanna\\eclipse-workspace\\API_Mavericks\\Team6_API_Hackathon\\Team6_API_Hackathon_API_Mavericks\\TestData\\Hypo Thyroid-Report.pdf");
-			// String payload = "{\"FirstName\":\"Anki\", \"LastName\":\"Abcde\", \"ContactNumber\":\"1234504590\",\"Email\":\"abc.124@gmail.com\", \"Allergy\":\"None\", \"FoodCategory\":\"Vegan\", \"DateOfBirth\":\"1983-02-01\"}";
-//System.out.println(patientpayload);
-//System.out.println("My non data" +payload);
-//ObjectMapper mapper= new ObjectMapper();
-//mapper.enable(SerializationFeature.INDENT_OUTPUT);
-//mapper.configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_PROPERTIES , false);
-//String data1=mapper.writeValueAsString(patientpayload);
+			File data=new File(".\\TestData\\Hypo Thyroid-Report.pdf");
 			Gson gson=new Gson();
 			String data1=gson.toJson(patientpayload);
 			System.out.println("My data:" +data1);
-			//HashMap<String,Object> data1= mapper.convertValue(patientpayload, HashMap.class);
 			Response ID= given()
 					.header("Authorization", "Bearer " +token)
 					.header("Content-Type","multipart/form-data")
 					 .formParam("patientInfo",data1)
 									 .multiPart("file", data,"application/pdf")
-					 //.contentType(("multipart/form-data"))
 					.when().log().all().config(RestAssured.config()
 							.encoderConfig(EncoderConfig.encoderConfig()
 									.encodeContentTypeAs("multipart/form-data", ContentType.TEXT)))
-					.post(Patient_Post);
-					
-					
-			//System.out.println(ID);
-			return ID;
+					.post(Patient_Post);			
+				return ID;
 		}
 		
 		public static Response getAll_Patient()
@@ -85,9 +73,6 @@ public class Patient_CRUD {
 					.header("Authorization", "Bearer " +token)
 					.contentType(ContentType.JSON)
 					.pathParam("patientId", id)
-					
-					
-					
 					.when()
 					.get(get_url_pid);
 					
@@ -102,9 +87,6 @@ public class Patient_CRUD {
 					.header("Authorization", "Bearer " +token)
 					.contentType("application/json")
 					.pathParam("fileId", id)
-					
-					
-					
 					.when().config(RestAssured.config()
 							.encoderConfig(EncoderConfig.encoderConfig()
 									.encodeContentTypeAs("multipart/form-data", ContentType.TEXT)))
@@ -116,19 +98,12 @@ public class Patient_CRUD {
 		
 		public static Response Update_Patient_Details(int pid,Patient_POJO patientpayload) throws JsonProcessingException
 		{
-			//Env_Var.patientId=pid;
-			 String payload = "{\"FirstName\":\"Anki\", \"LastName\":\"Abcde\", \"ContactNumber\":\"1234504590\",\"Email\":\"abc.124@gmail.com\", \"Allergy\":\"None\", \"FoodCategory\":\"Vegan\", \"DateOfBirth\":\"1983-02-01\"}";
-			System.out.println(patientpayload);
-			System.out.println("My non data" +payload);
+			
 			String Patient_Put= getURL().getString("Update_Patient_Put");
-			System.out.println("My pid" +pid);
-
-			File data=new File("C:\\Users\\Prasanna\\eclipse-workspace\\API_Mavericks\\Team6_API_Hackathon\\Team6_API_Hackathon_API_Mavericks\\TestData\\Hypo Thyroid-Report.pdf");
-
+			File data=new File(".\\TestData\\Hypo Thyroid-Report.pdf");
 			Gson gson=new Gson();
 			String data1=gson.toJson(patientpayload);
-			System.out.println(data1);
-			Response ID= given()
+					Response ID= given()
 					.header("Authorization", "Bearer " +token)
 					.header("Content-Type","multipart/form-data")
 					.pathParam("patientId", pid)

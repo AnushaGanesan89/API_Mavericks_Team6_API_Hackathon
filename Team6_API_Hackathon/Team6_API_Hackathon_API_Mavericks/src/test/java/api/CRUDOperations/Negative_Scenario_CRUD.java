@@ -37,7 +37,7 @@ public class Negative_Scenario_CRUD {
 				.body(userpayload)
 				.when()
 				.post(Login_Post);
-		System.out.println(tkn);
+		//System.out.println(tkn);
 		return tkn;
 	}
 	

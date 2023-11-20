@@ -26,6 +26,8 @@ public class Morbidity_TC {
 		
 		response= Morbidity_CRUD.getAll_morbidity();
 		response.then();
+		Loggerload.info("********You have retrieved ALL Morbidity details in the system*************");
+
 	}
 	
 	public int verify_get_All_morbidity_status() {
@@ -42,6 +44,8 @@ public class Morbidity_TC {
 			
 			response= Morbidity_CRUD.get_Morbidity_Using_Name(name);
 			response.then();
+			Loggerload.info("You have retrieved the morbidity details associated with this Morbidity name:"+Env_Var.morbiditytestname);
+
 			
 			
 
