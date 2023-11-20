@@ -1,0 +1,1 @@
+{"uuid":"fa6199ac-6d27-43ca-8666-05c7a1b4186e","name":"Scenario Outline: Check if user(Dietician) is able to login with invalid/blank credentials in request body","children":["ed909d9e-e594-4df8-b97f-e98c1b9088f0"],"befores":[],"afters":[],"start":1700517577802,"stop":1700517578223}

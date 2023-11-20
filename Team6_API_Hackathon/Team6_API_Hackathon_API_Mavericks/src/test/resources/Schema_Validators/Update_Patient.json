@@ -1,0 +1,62 @@
+var schema={
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "patientId": {
+          "type": "integer"
+        },
+        "FirstName": {
+          "type": "string"
+        },
+        "LastName": {
+          "type": "string"
+        },
+        "ContactNumber": {
+          "type": "string"
+        },
+        "Email": {
+          "type": "string"
+        },
+        "Allergy": {
+          "type": "string"
+        },
+        "FoodCategory": {
+          "type": "string"
+        },
+        "FileMorbidity": {
+                    "$ref": "#/definitions/FileMorbidity"
+                },
+                "FileMorbidityCondition": {
+                    "$ref": "#/definitions/FileMorbidityCondition"
+                },
+        "DateOfBirth": {
+          "type": "string"
+        },
+        "DieticianId": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "patientId",
+        "FirstName",
+        "LastName",
+        "ContactNumber",
+        "Email",
+        "Allergy",
+        "FoodCategory",
+        "FileMorbidity",
+        "FileMorbidityCondition",
+        "DateOfBirth",
+        "DieticianId"
+      ]
+    }
+  ]
+}
+
+pm.test('Schema is valid', () =>{
+    pm.expect(tv4.validate(jsonData, schema)).to.be.false;
+});
+

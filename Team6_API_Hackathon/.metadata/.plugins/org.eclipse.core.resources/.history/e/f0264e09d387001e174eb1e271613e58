@@ -1,0 +1,201 @@
+package api.Actions;
+
+
+import static io.restassured.RestAssured.given;
+
+import java.io.File;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.github.javafaker.Faker;
+
+import api.CRUDOperations.*;
+import api.Payloads.*;
+import api.Utilities.Loggerload;
+
+import api.GlobalVariables.*;
+import io.restassured.http.ContentType;
+import io.restassured.module.jsv.JsonSchemaValidator;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+
+public class Patient_TC {
+
+	Response response;
+	String extractresponse;
+	JsonPath jsonPathEvaluator;
+	Faker faker;
+	
+	//Post Request
+	public void TestPostPatient(String Allergy,String FoodCategory) throws ParseException, JsonProcessingException
+	{
+		Patient_POJO patientpayload=new Patient_POJO();
+		faker=new Faker();
+		//InputStream Create_PatientJsonSchema=getClass().getClassLoader().getResource("Create_Patient.json");
+		patientpayload.setFirstName(faker.name().firstName());
+		patientpayload.setLastName(faker.name().lastName());
+		patientpayload.setContactNumber(faker.number().numberBetween(1000000000L, 9999999999L));
+		patientpayload.setEmail(faker.internet().emailAddress());
+		patientpayload.setAllergy(Allergy);
+		patientpayload.setFoodCategory(FoodCategory);
+		LocalDateTime currentDate = LocalDateTime.now();
+		String DateOfBirth= currentDate.minusYears(20).toString();
+		patientpayload.setDateOfBirth(DateOfBirth);
+		response= Patient_CRUD.Patient_Creation(patientpayload);
+		extractresponse=response.then().assertThat().body(JsonSchemaValidator.
+			      matchesJsonSchema(new File(".\\Schema_Validators\\Create_Patient.json"))).log().all().extract().response().asString();
+		JsonPath js= new JsonPath(extractresponse);
+		String email= js.getString("Email");
+		int pid= js.getInt("patientId");
+		//System.out.println("email is" +email);
+		//System.out.println("pid is" +pid);
+		
+		Env_Var.Email=email;
+		Env_Var.patientId=pid;
+		Loggerload.info("***************** Patient Id  has been created  Successfully***************");
+
+		
+		
+		
+		
+		
+	}
+	
+public int verify_post_patient_status() {
+		
+		int code;
+		code=response.getStatusCode();
+		return code;
+
+	}
+//Get All Patient
+public void Get_All_Patient()
+{
+	
+	response= Patient_CRUD.getAll_Patient();
+	response.then();
+	Loggerload.info("*************You have retrieved ALL patients details in the system***************");
+
+}
+
+public int verify_get_patient_status() {
+	
+	int code;
+	code=response.getStatusCode();
+	return code;
+
+}
+//Get Patient Reports Using Patient Id
+public void Get_PatientDetails_UsingID(int id)
+{
+	
+		
+		response= Patient_CRUD.get_Using_PatientID(id);
+		extractresponse=response.then().log().all().extract().response().asString();
+		JsonPath js= new JsonPath(extractresponse);
+		String fileId= js.getString("fileId[0]");
+		//System.out.println("File id is:" +fileId);
+		Env_Var.fileid=fileId;
+		Loggerload.info("These are the records associated with this patient Id:"+Env_Var.patientId);
+
+		
+
+	}
+public int verify_get_patient_usingid_status() {
+	
+	int code;
+	code=response.getStatusCode();
+	return code;
+
+}
+//Retrieve Patient Files using FileId
+public void Get_PatientFiles_UsingFileID(String id)
+{
+	
+		
+		response= Patient_CRUD.get_Patient_Using_FileID(id);
+		response.then();
+		Loggerload.info("These are the records associated with this patient's FileId:"+Env_Var.fileid);
+
+		
+		
+
+	}
+
+public int verify_get_patient_file_status() {
+	
+	int code;
+	code=response.getStatusCode();
+	return code;
+
+}
+
+//Update Patient Details
+
+public void Update_Patient(String Allergy,String FoodCategory) throws ParseException, JsonProcessingException
+{
+	Patient_POJO patientpayload=new Patient_POJO();
+	faker=new Faker();
+	
+	patientpayload.setFirstName(faker.name().firstName());
+	patientpayload.setLastName(faker.name().lastName());
+	patientpayload.setContactNumber(faker.number().numberBetween(1000000000L, 9999999999L));
+	patientpayload.setEmail(faker.internet().emailAddress());
+	patientpayload.setAllergy(Allergy);
+	patientpayload.setFoodCategory(FoodCategory);
+	LocalDateTime currentDate = LocalDateTime.now();
+	String DateOfBirth= currentDate.minusYears(20).toString();
+	patientpayload.setDateOfBirth(DateOfBirth);
+	response= Patient_CRUD.Update_Patient_Details(Env_Var.patientId,patientpayload);
+	extractresponse=response.then().log().all().extract().response().asString();
+	JsonPath js= new JsonPath(extractresponse);
+	String email= js.getString("Email");
+	int pid= js.getInt("patientId");
+	//System.out.println("email is" +email);
+	//System.out.println("pid is" +pid);
+	
+	Env_Var.Email=email;
+	Env_Var.patientId=pid;
+	
+	Loggerload.info("The records associated with this patient Id has been successfully updated:"+Env_Var.patientId);
+
+	
+}
+
+public int verify_put_patient_status() {
+	
+	int code;
+	code=response.getStatusCode();
+	return code;
+
+}
+
+//Patient_Deletion
+
+public void TestDeletePatient(int id )
+{
+	
+
+	response= Patient_CRUD.Delete_Patient_by_Id(id);
+	response.then();
+	Loggerload.info("The records associated with this patient Id has been deleted successfully: "+Env_Var.patientId);
+
+}
+
+public int verify_delete_patient_status() {
+	
+	int code;
+	code=response.getStatusCode();
+	return code;
+
+}
+
+
+
+}

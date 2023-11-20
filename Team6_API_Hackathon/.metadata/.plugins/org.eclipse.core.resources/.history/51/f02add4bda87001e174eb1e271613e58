@@ -1,0 +1,23 @@
+Feature: Dieticians Role Module Positive Scenarios
+Background: User sets Authorization to Bearer Token
+
+#Dietician Logs In
+Scenario Outline: Check if user(Dietician) is able to login  valid endpoint and with valid email id and password in request body
+Given: User creates POST Request for the Dietician API endpoint
+When User sends HTTPS Request and  request Body with valid emailid and password from the excel sheet "<SheetName>" and <RowNumber>
+Then User receives 201 Ok Status with response body and successfully logs in
+Examples: 
+      |SheetName           | RowNumber |
+      |User_Login          |         0 |
+
+#Dietician Creates a patient details
+Scenario: Check if user_dietician able to create a patient with valid endpoint and request body for non existing values
+Given: User creates POST Request for the Dietician API endpoint for creating a new patient records
+When User sends HTTPS Request and request Body with mandatory and additional  fields to create a patient records
+Then User receives 201 Created Status with response body and patient is successfully created
+
+#Dietician updates a patient details
+Scenario: Check if user_dietician is able to update a patient with valid patient details and mandatory request body
+Given: User creates PUT Request for dietician API endpoint for updating the patient records
+When User sends HTTPS Request and request Body with mandatory and additional  fields to update a patient records
+Then User recieves 200 Ok with response body with response body and patient details are successfully updated

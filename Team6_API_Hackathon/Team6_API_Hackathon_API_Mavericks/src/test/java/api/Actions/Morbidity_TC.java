@@ -14,6 +14,7 @@ import api.CRUDOperations.*;
 import api.Payloads.*;
 import api.Utilities.Loggerload;
 import api.GlobalVariables.*;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
@@ -25,7 +26,7 @@ public class Morbidity_TC {
 	{
 		
 		response= Morbidity_CRUD.getAll_morbidity();
-		response.then();
+		response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath(".\\Schema_Validators\\Get_All_Morbidity.json"));
 		Loggerload.info("********You have retrieved ALL Morbidity details in the system*************");
 
 	}
@@ -43,7 +44,7 @@ public class Morbidity_TC {
 		
 			
 			response= Morbidity_CRUD.get_Morbidity_Using_Name(name);
-			response.then();
+			response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath(".\\Schema_Validators\\Get_Morbidity_ByName.json"));
 			Loggerload.info("You have retrieved the morbidity details associated with this Morbidity name:"+Env_Var.morbiditytestname);
 
 			

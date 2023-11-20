@@ -1,0 +1,110 @@
+package api.Actions;
+import static io.restassured.RestAssured.given;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+import java.util.ResourceBundle;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.github.javafaker.Faker;
+import com.google.gson.Gson;
+
+import api.CRUDOperations.*;
+import api.Payloads.*;
+import api.Utilities.Loggerload;
+import api.GlobalVariables.*;
+import io.restassured.RestAssured;
+import io.restassured.config.EncoderConfig;
+import io.restassured.http.ContentType;
+import io.restassured.module.jsv.JsonSchemaValidator;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+
+public class Schema_Validations_TC {
+	Response response;
+	String extractresponse;
+	static ResourceBundle getURL()
+	{
+		ResourceBundle endurl=ResourceBundle.getBundle("EndPoints");
+		return endurl;
+	}
+	
+	public void TestPostPatient() throws ParseException, IOException
+	{
+		String Patient_Post= getURL().getString("Create_Patient_Post");
+		File data=new File(".\\TestData\\Hypo Thyroid-Report.pdf");
+		
+		String payload = "{\"FirstName\":\"Anki\", \"LastName\":\"Abcde\", \"ContactNumber\":\"1234504590\",\"Email\":\"abc.124@gmail.com\", \"Allergy\":\"None\", \"FoodCategory\":\"Vegan\", \"DateOfBirth\":\"1983-02-01\"}";
+		Response ID= given()
+				.header("Authorization", "Bearer " +Env_Var.token)
+				.header("Content-Type","multipart/form-data")
+				 .formParam("patientInfo",payload)
+								 .multiPart("file", data,"application/pdf")
+				.when().log().all().config(RestAssured.config()
+						.encoderConfig(EncoderConfig.encoderConfig()
+								.encodeContentTypeAs("multipart/form-data", ContentType.TEXT)))
+				.post(Patient_Post);			
+		
+		extractresponse=response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath(".\\Schema_Validators\\Create_Patient.json"))
+				.log().all().extract().response().asString();
+		JsonPath js= new JsonPath(extractresponse);
+		
+		int pid= js.getInt("patientId");
+		//System.out.println("email is" +email);
+		//System.out.println("pid is" +pid);
+		Env_Var.temp_patientId=pid;
+		
+		Loggerload.info("***************** Schema validated Successfully***************");
+	
+	
+
+}
+	public void Update_Patient() throws ParseException, JsonProcessingException
+
+	{
+	int pid= Env_Var.temp_patientId;	
+		String Patient_Put= getURL().getString("Update_Patient_Put");
+		File data=new File(".\\TestData\\Hypo Thyroid-Report.pdf");
+		Gson gson=new Gson();
+		String data1="{\"FirstName\":\"pnki\", \"LastName\":\"Ajyde\", \"ContactNumber\":\"1234507590\",\"Email\":\"abc.124@gmail.com\", \"Allergy\":\"None\", \"FoodCategory\":\"Vegan\", \"DateOfBirth\":\"1983-02-01\"}";
+				given()
+				.header("Authorization", "Bearer " +Env_Var.token)
+				.header("Content-Type","multipart/form-data")
+				.pathParam("patientId", pid)
+				 .formParam("patientInfo",data1)
+								.multiPart("file", data,"application/pdf")
+				 
+				.when().log().all().config(RestAssured.config()
+						.encoderConfig(EncoderConfig.encoderConfig()
+								.encodeContentTypeAs("multipart/form-data", ContentType.TEXT)))
+				.put(Patient_Put)
+				.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath(".\\Schema_Validators\\Update_Patient.json"));
+				
+}
+	
+	public void TestDeletePatient(int pid )
+	{
+		String del_patient_url=getURL().getString("Delete_Patient");
+		pid=Env_Var.temp_patientId;
+		given().header("Authorization", "Bearer " +Env_Var.token)
+				.contentType(ContentType.JSON)
+				.pathParam("patientId", pid)
+				
+				.when()
+				.delete(del_patient_url)
+				.then();
+
+		
+		
+		Loggerload.info("The records associated with this patient Id has been deleted successfully: "+Env_Var.patientId);
+
+	}
+	
+}

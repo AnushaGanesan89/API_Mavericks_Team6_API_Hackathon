@@ -3,12 +3,16 @@ package api.Actions;
 
 import static io.restassured.RestAssured.given;
 
+import java.io.File;
+import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
+
+import org.apache.commons.io.FileUtils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -20,6 +24,7 @@ import api.Utilities.Loggerload;
 
 import api.GlobalVariables.*;
 import io.restassured.http.ContentType;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
@@ -31,10 +36,12 @@ public class Patient_TC {
 	Faker faker;
 	
 	//Post Request
-	public void TestPostPatient(String Allergy,String FoodCategory) throws ParseException, JsonProcessingException
+	public void TestPostPatient(String Allergy,String FoodCategory) throws ParseException, IOException
 	{
 		Patient_POJO patientpayload=new Patient_POJO();
 		faker=new Faker();
+		
+		
 		patientpayload.setFirstName(faker.name().firstName());
 		patientpayload.setLastName(faker.name().lastName());
 		patientpayload.setContactNumber(faker.number().numberBetween(1000000000L, 9999999999L));
@@ -45,7 +52,8 @@ public class Patient_TC {
 		String DateOfBirth= currentDate.minusYears(20).toString();
 		patientpayload.setDateOfBirth(DateOfBirth);
 		response= Patient_CRUD.Patient_Creation(patientpayload);
-		extractresponse=response.then().log().all().extract().response().asString();
+		extractresponse=response.then()
+				.log().all().extract().response().asString();
 		JsonPath js= new JsonPath(extractresponse);
 		String email= js.getString("Email");
 		int pid= js.getInt("patientId");

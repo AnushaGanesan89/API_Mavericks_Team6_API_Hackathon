@@ -9,8 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = {".\\src\\test\\resources\\Features"},
 		glue = {"api.StepDefinitions"},
-		plugin = {"pretty",
-				"html:target/API.html","json:target/API.json",
+		plugin =  {"pretty", "json:target/CucumberTestReport.json", "html:target/CucumberTestReport.html",
 		
 				"junit:target/cucumber-reports/cucumber.xml",
 			"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",

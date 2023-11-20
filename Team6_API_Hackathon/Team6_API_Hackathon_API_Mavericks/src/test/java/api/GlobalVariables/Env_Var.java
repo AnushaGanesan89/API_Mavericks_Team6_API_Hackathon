@@ -10,4 +10,6 @@ public class Env_Var {
 	public static int invalid_patientId=12345;
 	public static String invalid_fileid="abh14";
 	public static String invalid_morbiditytestname="QZH";
+	public static int temp_patientId;
+	
 }

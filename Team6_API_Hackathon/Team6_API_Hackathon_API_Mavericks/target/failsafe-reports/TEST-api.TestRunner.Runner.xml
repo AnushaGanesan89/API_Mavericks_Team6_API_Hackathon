@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="api.TestRunner.Runner" time="21.382" tests="28" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks\target\test-classes;C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks\target\Team6_API_Hackathon_API_Mavericks-0.0.1-SNAPSHOT.jar;C:\Users\Prasanna\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Prasanna\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Prasanna\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Prasanna\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Prasanna\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Prasanna\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Prasanna\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Prasanna\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\Prasanna\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Prasanna\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\Prasanna\.m2\repository\io\rest-assured\json-schema-validator\5.3.2\json-schema-validator-5.3.2.jar;C:\Users\Prasanna\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Prasanna\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Prasanna\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Prasanna\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Prasanna\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Prasanna\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Prasanna\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Prasanna\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Prasanna\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Prasanna\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Prasanna\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Prasanna\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Prasanna\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\Prasanna\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Prasanna\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Prasanna\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Prasanna\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Prasanna\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Prasanna\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\Prasanna\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\Prasanna\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\Prasanna\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\Prasanna\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\Prasanna\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Prasanna\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Prasanna\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\logging\log4j\log4j-core\2.21.1\log4j-core-2.21.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\Prasanna\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Prasanna\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Prasanna\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Prasanna\.m2\repository\net\masterthought\cucumber-reporting\5.7.7\cucumber-reporting-5.7.7.jar;C:\Users\Prasanna\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.2\jackson-datatype-jsr310-2.15.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\Prasanna\.m2\repository\joda-time\joda-time\2.12.5\joda-time-2.12.5.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-utils\3.5.1\plexus-utils-3.5.1.jar;C:\Users\Prasanna\.m2\repository\org\jsoup\jsoup\1.16.1\jsoup-1.16.1.jar;C:\Users\Prasanna\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20220608.1\owasp-java-html-sanitizer-20220608.1.jar;C:\Users\Prasanna\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Prasanna\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-plugin-api\3.9.5\maven-plugin-api-3.9.5.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-model\3.9.5\maven-model-3.9.5.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-artifact\3.9.5\maven-artifact-3.9.5.jar;C:\Users\Prasanna\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.5\org.eclipse.sisu.plexus-0.3.5.jar;C:\Users\Prasanna\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\Prasanna\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.5\org.eclipse.sisu.inject-0.3.5.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.7.0\plexus-classworlds-2.7.0.jar;C:\Users\Prasanna\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Prasanna\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Prasanna\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\plugins\maven-dependency-plugin\3.6.1\maven-dependency-plugin-3.6.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.11.1\doxia-sink-api-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.11.1\doxia-logging-api-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.1.1\maven-reporting-api-3.1.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\3.2.0\maven-reporting-impl-3.2.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\Prasanna\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\Prasanna\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\Prasanna\.m2\repository\org\eclipse\aether\aether-api\0.9.0.M2\aether-api-0.9.0.M2.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar;C:\Users\Prasanna\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Prasanna\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.11.1\doxia-decoration-model-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-core\1.11.1\doxia-core-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\commons\commons-text\1.3\commons-text-1.3.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-integration-tools\1.11.1\doxia-integration-tools-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.11.1\doxia-site-renderer-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-skin-model\1.11.1\doxia-skin-model-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.11.1\doxia-module-xhtml-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml5\1.11.1\doxia-module-xhtml5-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-velocity\1.2\plexus-velocity-1.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\Prasanna\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar;C:\Users\Prasanna\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\Prasanna\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\Prasanna\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar;C:\Users\Prasanna\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\Prasanna\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\Prasanna\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-archiver\4.8.0\plexus-archiver-4.8.0.jar;C:\Users\Prasanna\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Prasanna\.m2\repository\org\iq80\snappy\snappy\0.4\snappy-0.4.jar;C:\Users\Prasanna\.m2\repository\org\tukaani\xz\1.9\xz-1.9.jar;C:\Users\Prasanna\.m2\repository\com\github\luben\zstd-jni\1.5.5-5\zstd-jni-1.5.5-5.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-io\3.4.1\plexus-io-3.4.1.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-10\plexus-i18n-1.0-beta-10.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\shared\maven-dependency-analyzer\1.13.2\maven-dependency-analyzer-1.13.2.jar;C:\Users\Prasanna\.m2\repository\org\ow2\asm\asm\9.5\asm-9.5.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\shared\maven-dependency-tree\3.2.1\maven-dependency-tree-3.2.1.jar;C:\Users\Prasanna\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.3.2\maven-common-artifact-filters-3.3.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.13.1\maven-artifact-transfer-0.13.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.4.2\maven-shared-utils-3.4.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Prasanna\.m2\repository\org\sonatype\plexus\plexus-build-api\0.0.7\plexus-build-api-0.0.7.jar;C:\Users\Prasanna\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\Prasanna\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\Prasanna\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\Prasanna\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\Prasanna\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\Prasanna\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\Prasanna\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Prasanna\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\Prasanna\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\Prasanna\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\Prasanna\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\Prasanna\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\Prasanna\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\Prasanna\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\Prasanna\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\Prasanna\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.24.0\allure-cucumber7-jvm-2.24.0.jar;C:\Users\Prasanna\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Prasanna\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\gherkin\27.0.0\gherkin-27.0.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Prasanna\.m2\repository\tech\grasshopper\extentreports-cucumber6-adapter\2.17.0\extentreports-cucumber6-adapter-2.17.0.jar;C:\Users\Prasanna\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Prasanna\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Prasanna\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.1.1\cucumber-extentsreport-3.1.1.jar;C:\Users\Prasanna\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Prasanna\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Prasanna\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Prasanna\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Prasanna\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Prasanna\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\plugins\maven-failsafe-plugin\3.2.2\maven-failsafe-plugin-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.2.2\maven-surefire-common-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\surefire\surefire-api\3.2.2\surefire-api-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.2.2\surefire-logger-api-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.2.2\surefire-extensions-api-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\surefire\surefire-booter\3.2.2\surefire-booter-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.2.2\surefire-extensions-spi-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-java\1.2.0\plexus-java-1.2.0.jar;C:\Users\Prasanna\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.2.2\surefire-shared-utils-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\junit\vintage\junit-vintage-engine\5.10.0-RC1\junit-vintage-engine-5.10.0-RC1.jar;C:\Users\Prasanna\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0-RC1\junit-platform-engine-1.10.0-RC1.jar;C:\Users\Prasanna\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Prasanna\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0-RC1\junit-platform-commons-1.10.0-RC1.jar;C:\Users\Prasanna\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Prasanna\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Prasanna\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Prasanna\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Prasanna\.m2\repository\org\apache\poi\poi\5.2.4\poi-5.2.4.jar;C:\Users\Prasanna\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Prasanna\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Prasanna\.m2\repository\org\apache\poi\poi-ooxml\5.2.4\poi-ooxml-5.2.4.jar;C:\Users\Prasanna\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.4\poi-ooxml-lite-5.2.4.jar;C:\Users\Prasanna\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\Prasanna\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Prasanna\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\Prasanna\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\Prasanna\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\Prasanna\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\Prasanna\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\Prasanna\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Prasanna\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
+    <property name="sun.java.command" value="C:\Users\Prasanna\AppData\Local\Temp\surefire3144738263747493673\surefirebooter-20231120163055741_3.jar C:\Users\Prasanna\AppData\Local\Temp\surefire3144738263747493673 2023-11-20T16-30-55_581-jvmRun1 surefire-20231120163055741_1tmp surefire_0-20231120163055741_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks\target\test-classes;C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks\target\Team6_API_Hackathon_API_Mavericks-0.0.1-SNAPSHOT.jar;C:\Users\Prasanna\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Prasanna\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Prasanna\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Prasanna\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Prasanna\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Prasanna\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Prasanna\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Prasanna\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\Prasanna\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Prasanna\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\Prasanna\.m2\repository\io\rest-assured\json-schema-validator\5.3.2\json-schema-validator-5.3.2.jar;C:\Users\Prasanna\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Prasanna\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Prasanna\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Prasanna\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Prasanna\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Prasanna\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Prasanna\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Prasanna\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Prasanna\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Prasanna\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Prasanna\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Prasanna\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Prasanna\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\Prasanna\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Prasanna\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Prasanna\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Prasanna\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Prasanna\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Prasanna\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\Prasanna\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\Prasanna\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\Prasanna\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\Prasanna\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\Prasanna\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Prasanna\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Prasanna\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\Prasanna\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Prasanna\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\logging\log4j\log4j-core\2.21.1\log4j-core-2.21.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\Prasanna\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Prasanna\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Prasanna\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Prasanna\.m2\repository\net\masterthought\cucumber-reporting\5.7.7\cucumber-reporting-5.7.7.jar;C:\Users\Prasanna\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.2\jackson-datatype-jsr310-2.15.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\Prasanna\.m2\repository\joda-time\joda-time\2.12.5\joda-time-2.12.5.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-utils\3.5.1\plexus-utils-3.5.1.jar;C:\Users\Prasanna\.m2\repository\org\jsoup\jsoup\1.16.1\jsoup-1.16.1.jar;C:\Users\Prasanna\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20220608.1\owasp-java-html-sanitizer-20220608.1.jar;C:\Users\Prasanna\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Prasanna\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-plugin-api\3.9.5\maven-plugin-api-3.9.5.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-model\3.9.5\maven-model-3.9.5.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-artifact\3.9.5\maven-artifact-3.9.5.jar;C:\Users\Prasanna\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.5\org.eclipse.sisu.plexus-0.3.5.jar;C:\Users\Prasanna\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\Prasanna\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.5\org.eclipse.sisu.inject-0.3.5.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.7.0\plexus-classworlds-2.7.0.jar;C:\Users\Prasanna\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Prasanna\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Prasanna\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\plugins\maven-dependency-plugin\3.6.1\maven-dependency-plugin-3.6.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.11.1\doxia-sink-api-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.11.1\doxia-logging-api-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.1.1\maven-reporting-api-3.1.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\3.2.0\maven-reporting-impl-3.2.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\Prasanna\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\Prasanna\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\Prasanna\.m2\repository\org\eclipse\aether\aether-api\0.9.0.M2\aether-api-0.9.0.M2.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar;C:\Users\Prasanna\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Prasanna\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.11.1\doxia-decoration-model-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-core\1.11.1\doxia-core-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\commons\commons-text\1.3\commons-text-1.3.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-integration-tools\1.11.1\doxia-integration-tools-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.11.1\doxia-site-renderer-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-skin-model\1.11.1\doxia-skin-model-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.11.1\doxia-module-xhtml-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml5\1.11.1\doxia-module-xhtml5-1.11.1.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-velocity\1.2\plexus-velocity-1.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\Prasanna\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar;C:\Users\Prasanna\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\Prasanna\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\Prasanna\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar;C:\Users\Prasanna\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\Prasanna\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\Prasanna\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-archiver\4.8.0\plexus-archiver-4.8.0.jar;C:\Users\Prasanna\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Prasanna\.m2\repository\org\iq80\snappy\snappy\0.4\snappy-0.4.jar;C:\Users\Prasanna\.m2\repository\org\tukaani\xz\1.9\xz-1.9.jar;C:\Users\Prasanna\.m2\repository\com\github\luben\zstd-jni\1.5.5-5\zstd-jni-1.5.5-5.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-io\3.4.1\plexus-io-3.4.1.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-10\plexus-i18n-1.0-beta-10.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\shared\maven-dependency-analyzer\1.13.2\maven-dependency-analyzer-1.13.2.jar;C:\Users\Prasanna\.m2\repository\org\ow2\asm\asm\9.5\asm-9.5.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\shared\maven-dependency-tree\3.2.1\maven-dependency-tree-3.2.1.jar;C:\Users\Prasanna\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.3.2\maven-common-artifact-filters-3.3.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.13.1\maven-artifact-transfer-0.13.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.4.2\maven-shared-utils-3.4.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Prasanna\.m2\repository\org\sonatype\plexus\plexus-build-api\0.0.7\plexus-build-api-0.0.7.jar;C:\Users\Prasanna\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\Prasanna\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\Prasanna\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\Prasanna\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\Prasanna\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\Prasanna\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\Prasanna\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Prasanna\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\Prasanna\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\Prasanna\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\Prasanna\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\Prasanna\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\Prasanna\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\Prasanna\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\Prasanna\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\Prasanna\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.24.0\allure-cucumber7-jvm-2.24.0.jar;C:\Users\Prasanna\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Prasanna\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\gherkin\27.0.0\gherkin-27.0.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Prasanna\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Prasanna\.m2\repository\tech\grasshopper\extentreports-cucumber6-adapter\2.17.0\extentreports-cucumber6-adapter-2.17.0.jar;C:\Users\Prasanna\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Prasanna\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Prasanna\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.1.1\cucumber-extentsreport-3.1.1.jar;C:\Users\Prasanna\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Prasanna\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Prasanna\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Prasanna\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Prasanna\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Prasanna\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\plugins\maven-failsafe-plugin\3.2.2\maven-failsafe-plugin-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.2.2\maven-surefire-common-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\surefire\surefire-api\3.2.2\surefire-api-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.2.2\surefire-logger-api-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.2.2\surefire-extensions-api-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\surefire\surefire-booter\3.2.2\surefire-booter-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.2.2\surefire-extensions-spi-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\codehaus\plexus\plexus-java\1.2.0\plexus-java-1.2.0.jar;C:\Users\Prasanna\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\Prasanna\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.2.2\surefire-shared-utils-3.2.2.jar;C:\Users\Prasanna\.m2\repository\org\junit\vintage\junit-vintage-engine\5.10.0-RC1\junit-vintage-engine-5.10.0-RC1.jar;C:\Users\Prasanna\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0-RC1\junit-platform-engine-1.10.0-RC1.jar;C:\Users\Prasanna\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Prasanna\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0-RC1\junit-platform-commons-1.10.0-RC1.jar;C:\Users\Prasanna\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Prasanna\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Prasanna\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Prasanna\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Prasanna\.m2\repository\org\apache\poi\poi\5.2.4\poi-5.2.4.jar;C:\Users\Prasanna\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Prasanna\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Prasanna\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Prasanna\.m2\repository\org\apache\poi\poi-ooxml\5.2.4\poi-ooxml-5.2.4.jar;C:\Users\Prasanna\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.4\poi-ooxml-lite-5.2.4.jar;C:\Users\Prasanna\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Prasanna\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\Prasanna\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Prasanna\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\Prasanna\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\Prasanna\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\Prasanna\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\Prasanna\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\Prasanna\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Prasanna\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Prasanna"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Prasanna\AppData\Local\Temp\surefire3144738263747493673\surefirebooter-20231120163055741_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20.0.1+9-29"/>
+    <property name="user.name" value="Prasanna"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Prasanna\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Prasanna\AppData\Local\Temp\"/>
+    <property name="java.version" value="20.0.1"/>
+    <property name="user.dir" value="C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-20/bin/server;C:/Program Files/Java/jdk-20/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Prasanna\scoop\shims;C:\Users\Prasanna\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Prasanna\AppData\Local\Programs\Python\Python39\;C:\Users\Prasanna\AppData\Local\Microsoft\WindowsApps;C:\Users\Prasanna\AppData\Roaming\npm;C:\Users\Prasanna\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20.0.1+9-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="Check if user(Dietician) is able to login  valid endpoint and with valid email id and password in request body" classname="Dieticians Role Module Positive Scenarios" time="6.491">
+    <system-out><![CDATA[
+Scenario Outline: Check if user(Dietician) is able to login  valid endpoint and with valid email id and password in request body &amp#27;[90m# src/test/resources/Features/01Dietician_.feature:11&amp#27;[0m
+io.restassured.internal.RestAssuredResponseImpl@6d695ec4
+HTTP/1.1 200 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700515865&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=hc8XRWRcwIQW%2FZTgazH%2B36%2FO3EF%2FQwBR1Xsks5xYQUk%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700515865&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=hc8XRWRcwIQW%2FZTgazH%2B36%2FO3EF%2FQwBR1Xsks5xYQUk%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 20 Nov 2023 21:31:05 GMT
+Via: 1.1 vegur
+
+{
+    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBZ2FuZXNhbjA0MTk4OUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MTU4NjUsImV4cCI6MTcwMDU0NDY2NX0.HHE6g6oHByrYtQU-wvQMdtDdZTx6kImxEDfnYXI4IJJ6tb8qGlatUgQv59moGKJplzQihlAuwsxRpO9V8o4MvA",
+    "type": "Bearer ",
+    "userId": 99,
+    "loginUserEmail": "Aganesan041989@gmail.com",
+    "roles": [
+        "ROLE_DIETICIAN"
+    ]
+}
+[INFO ]2023-11-2016:11:06.474[main]api.Utilities.Loggerload1]-***************** Dietician has logged in Successfully***************
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request and  request Body with valid emailid and password from the excel sheet &amp#27;[0m&amp#27;[32m&amp#27;[1m"User_Login"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m        &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_sends_https_request_and_request_body_with_valid_emailid_and_password_from_the_excel_sheet_and(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receives &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m&amp#27;[32m Ok Status with response body and successfully logs in&amp#27;[0m                                                   &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_receives_ok_status_with_response_body_and_successfully_logs_in(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="Check if user_dietician able to create a patient with valid endpoint and request body for non existing values" classname="Dieticians Role Module Positive Scenarios" time="1.236">
+    <system-out><![CDATA[
+Scenario Outline: Check if user_dietician able to create a patient with valid endpoint and request body for non existing values                             &amp#27;[90m# src/test/resources/Features/01Dietician_.feature:21&amp#27;[0m
+My data:{"FirstName":"Marline","LastName":"Armstrong","ContactNumber":4638789818,"Email":"tera.kerluke@yahoo.com","Allergy":"Egg","FoodCategory":"Vegan","DateOfBirth":"2003-11-20T16:31:07.004453900"}
+Request method:	POST
+Request URI:	https://dietician-dev-41d9a344a720.herokuapp.com/dietician/patient
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	patientInfo={"FirstName":"Marline","LastName":"Armstrong","ContactNumber":4638789818,"Email":"tera.kerluke@yahoo.com","Allergy":"Egg","FoodCategory":"Vegan","DateOfBirth":"2003-11-20T16:31:07.004453900"}
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBZ2FuZXNhbjA0MTk4OUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MTU4NjUsImV4cCI6MTcwMDU0NDY2NX0.HHE6g6oHByrYtQU-wvQMdtDdZTx6kImxEDfnYXI4IJJ6tb8qGlatUgQv59moGKJplzQihlAuwsxRpO9V8o4MvA
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = Hypo Thyroid-Report.pdf
+				Content-Type: application/pdf
+
+				.\TestData\Hypo Thyroid-Report.pdf
+Body:			<none>
+HTTP/1.1 201 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700515867&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=ULogWcHWKl5DoZo9X1iPdAUqcsl7OdX8oUWK7AkmpoI%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700515867&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=ULogWcHWKl5DoZo9X1iPdAUqcsl7OdX8oUWK7AkmpoI%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 20 Nov 2023 21:31:06 GMT
+Via: 1.1 vegur
+
+{
+    "patientId": 4619,
+    "FirstName": "Marline",
+    "LastName": "Armstrong",
+    "ContactNumber": "4638789818",
+    "Email": "tera.kerluke@yahoo.com",
+    "Allergy": "Egg",
+    "FoodCategory": "Vegan",
+    "FileMorbidity": {
+        "655bd01bfa57dd184cbe9c73": {
+            "T4": "1.22 µg/dl",
+            "TSH": "100.0 mIU/L"
+        }
+    },
+    "FileMorbidityCondition": {
+        "655bd01bfa57dd184cbe9c73": "Thyroid: Hypothyroidism \n"
+    },
+    "DateOfBirth": "2003-11-20T16:31:07.004+00:00",
+    "DieticianId": 99
+}
+[INFO ]2023-11-2016:11:07.787[main]api.Utilities.Loggerload1]-***************** Patient Id  has been created  Successfully***************
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request and request Body with mandatory and additional  fields to create a patient records from the excel sheet &amp#27;[0m&amp#27;[32m&amp#27;[1m"New_Patient"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_sends_https_request_and_request_body_with_mandatory_and_additional_fields_to_create_a_patient_records_from_the_excel_sheet_and(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receives &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m&amp#27;[32m Created Status with response body and patient is successfully created&amp#27;[0m                                                              &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_receives_created_status_with_response_body_and_patient_is_successfully_created(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user able to retrieve all patients with valid API Endpoint" classname="Dieticians Role Module Positive Scenarios" time="0.333">
+    <system-out><![CDATA[
+Scenario: Check if user able to retrieve all patients with valid API Endpoint &amp#27;[90m# src/test/resources/Features/01Dietician_.feature:24&amp#27;[0m
+[INFO ]2023-11-2016:11:08.154[main]api.Utilities.Loggerload1]-*************You have retrieved ALL patients details in the system***************
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request to retrieve all patients details&amp#27;[0m              &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_sends_https_request_to_retrieve_all_patients_details()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser recieves &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK with response body&amp#27;[0m                                &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_recieves_ok_with_response_body(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user_dietician is able to update a patient with valid patient details and mandatory request body" classname="Dieticians Role Module Positive Scenarios" time="0.689">
+    <system-out><![CDATA[
+Scenario Outline: Check if user_dietician is able to update a patient with valid patient details and mandatory request body                                    &amp#27;[90m# src/test/resources/Features/01Dietician_.feature:38&amp#27;[0m
+Request method:	PUT
+Request URI:	https://dietician-dev-41d9a344a720.herokuapp.com/dietician/patient/4619
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	patientInfo={"FirstName":"Charlie","LastName":"Borer","ContactNumber":1917184167,"Email":"elmo.kohler@yahoo.com","Allergy":"Egg","FoodCategory":"Vegetarian","DateOfBirth":"2003-11-20T16:31:08.391908"}
+Path params:	patientId=4619
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBZ2FuZXNhbjA0MTk4OUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MTU4NjUsImV4cCI6MTcwMDU0NDY2NX0.HHE6g6oHByrYtQU-wvQMdtDdZTx6kImxEDfnYXI4IJJ6tb8qGlatUgQv59moGKJplzQihlAuwsxRpO9V8o4MvA
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = Hypo Thyroid-Report.pdf
+				Content-Type: application/pdf
+
+				.\TestData\Hypo Thyroid-Report.pdf
+Body:			<none>
+HTTP/1.1 200 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700515868&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=y3x65a96%2FV9uGoLG1IAdDCDzQf15gX3CjaqcdKi%2Fl%2F0%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700515868&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=y3x65a96%2FV9uGoLG1IAdDCDzQf15gX3CjaqcdKi%2Fl%2F0%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 20 Nov 2023 21:31:08 GMT
+Via: 1.1 vegur
+
+{
+    "patientId": 4619,
+    "FirstName": "Charlie",
+    "LastName": "Borer",
+    "ContactNumber": "1917184167",
+    "Email": "elmo.kohler@yahoo.com",
+    "Allergy": "Egg",
+    "FoodCategory": "Vegetarian",
+    "FileMorbidity": {
+        "655bd01cfa57dd184cbe9c75": {
+            "T4": "1.22 µg/dl",
+            "TSH": "100.0 mIU/L"
+        },
+        "655bd01bfa57dd184cbe9c73": {
+            "T4": "1.22 µg/dl",
+            "TSH": "100.0 mIU/L"
+        }
+    },
+    "FileMorbidityCondition": {
+        "655bd01cfa57dd184cbe9c75": "Thyroid: Hypothyroidism \n",
+        "655bd01bfa57dd184cbe9c73": "Thyroid: Hypothyroidism \n"
+    },
+    "DateOfBirth": "2003-11-20T16:31:08.391+00:00",
+    "DieticianId": 99
+}
+[INFO ]2023-11-2016:11:08.858[main]api.Utilities.Loggerload1]-The records associated with this patient Id has been successfully updated:4619
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request and request Body with mandatory and additional  fields to update a patient records from the excel sheet &amp#27;[0m&amp#27;[32m&amp#27;[1m"Update_Patient"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_sends_https_request_and_request_body_with_mandatory_and_additional_fields_to_update_a_patient_records_from_the_excel_sheet_and(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser recieves &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m Ok with response body with response body and patient details are successfully updated&amp#27;[0m                                                 &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_recieves_ok_with_response_body_with_response_body_and_patient_details_are_successfully_updated(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user able to retrieve specific patients test report with valid API Endpoint" classname="Dieticians Role Module Positive Scenarios" time="0.377">
+    <system-out><![CDATA[
+Scenario Outline: Check if user able to retrieve specific patients test report with valid API Endpoint &amp#27;[90m# src/test/resources/Features/01Dietician_.feature:48&amp#27;[0m
+HTTP/1.1 200 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700515869&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=8Zhy%2BsR6sfZMgmVXkeFA%2BgGq7M5aRUnIE7lofWiXgzw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700515869&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=8Zhy%2BsR6sfZMgmVXkeFA%2BgGq7M5aRUnIE7lofWiXgzw%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 20 Nov 2023 21:31:08 GMT
+Via: 1.1 vegur
+
+[
+    {
+        "fileId": "655bd01cfa57dd184cbe9c75",
+        "fileName": "Hypo Thyroid-Report.pdf",
+        "uploadDate": "2023-11-20T21:31:08.887+00:00",
+        "morbidConditions": {
+            "T4": "1.22 µg/dl",
+            "TSH": "100.0 mIU/L"
+        },
+        "morbidConditionStr": "Thyroid: Hypothyroidism \n"
+    },
+    {
+        "fileId": "655bd01bfa57dd184cbe9c73",
+        "fileName": "Hypo Thyroid-Report.pdf",
+        "uploadDate": "2023-11-20T21:31:07.693+00:00",
+        "morbidConditions": {
+            "T4": "1.22 µg/dl",
+            "TSH": "100.0 mIU/L"
+        },
+        "morbidConditionStr": "Thyroid: Hypothyroidism \n"
+    }
+]
+[INFO ]2023-11-2016:11:09.208[main]api.Utilities.Loggerload1]-These are the records associated with this patient Id:4619
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request with valid patient id &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                                &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_sends_https_request_with_valid_patient_id(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser recieves &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK with patient test report details&amp#27;[0m                                           &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_recieves_ok_with_patient_test_report_details(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user able to retrieve specific patients test report by fileid with valid API Endpoint" classname="Dieticians Role Module Positive Scenarios" time="0.288">
+    <system-out><![CDATA[
+Scenario Outline: Check if user able to retrieve specific patients test report by fileid with valid API Endpoint &amp#27;[90m# src/test/resources/Features/01Dietician_.feature:58&amp#27;[0m
+[INFO ]2023-11-2016:11:09.505[main]api.Utilities.Loggerload1]-These are the records associated with this patient's FileId:655bd01cfa57dd184cbe9c75
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request with valid fileid &amp#27;[0m&amp#27;[32m&amp#27;[1m"value"&amp#27;[0m                                                        &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_sends_https_request_with_valid_fileid(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser recieves &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK with patient test report details&amp#27;[0m                                                     &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_recieves_ok_with_patient_test_report_details(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user able to retrieve all morbidity information" classname="Dieticians Role Module Positive Scenarios" time="0.508">
+    <system-out><![CDATA[
+Scenario: Check if user able to retrieve all morbidity information  &amp#27;[90m# src/test/resources/Features/01Dietician_.feature:61&amp#27;[0m
+[INFO ]2023-11-2016:11:10.038[main]api.Utilities.Loggerload1]-********You have retrieved ALL Morbidity details in the system*************
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request to retrieve all morbidity details&amp#27;[0m   &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_sends_https_request_to_retrieve_all_morbidity_details()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser recieves &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK with response body with all morbidities&amp#27;[0m &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_recieves_ok_with_response_body_with_all_morbidities(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user able to retrieve a morbidity information with valid Morbidity TestName" classname="Dieticians Role Module Positive Scenarios" time="0.233">
+    <system-out><![CDATA[
+Scenario Outline: Check if user able to retrieve a morbidity information with valid Morbidity TestName &amp#27;[90m# src/test/resources/Features/01Dietician_.feature:75&amp#27;[0m
+[INFO ]2023-11-2016:11:10.264[main]api.Utilities.Loggerload1]-You have retrieved the morbidity details associated with this Morbidity name:TSH
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request with morbidity test name &amp#27;[0m&amp#27;[32m&amp#27;[1m"value"&amp#27;[0m                                       &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_sends_https_request_with_morbidity_test_name(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser recieves &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK with response body with the details of morbidity test name&amp#27;[0m                 &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_recieves_ok_with_response_body_with_the_details_of_morbidity_test_name(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user able to logout from Dietician API" classname="Dieticians Role Module Positive Scenarios" time="0.241">
+    <system-out><![CDATA[
+Scenario: Check if user able to logout from Dietician API               &amp#27;[90m# src/test/resources/Features/01Dietician_.feature:79&amp#27;[0m
+[INFO ]2023-11-2016:11:10.504[main]api.Utilities.Loggerload1]-***************** User has logged out Successfully***************
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS GET Request to logout from the Dietician API&amp#27;[0m    &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_sends_https_get_request_to_logout_from_the_dietician_api()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receives &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK Status with response body Logout successful&amp#27;[0m &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_receives_ok_status_with_response_body_logout_successful(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user(Patient) is able to login  valid endpoint and with valid email id and password in request body" classname="Patient Role Module Positive Scenarios" time="0.452">
+    <system-out><![CDATA[
+Scenario Outline: Check if user(Patient) is able to login  valid endpoint and with valid email id and password in request body    &amp#27;[90m# src/test/resources/Features/02Patient.feature:11&amp#27;[0m
+io.restassured.internal.RestAssuredResponseImpl@6a6a7c53
+HTTP/1.1 200 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700515870&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=Qd8BBiD%2BLibFssO8e%2BDU16f5XI7ED6SkCUDcRUdzA4E%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700515870&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=Qd8BBiD%2BLibFssO8e%2BDU16f5XI7ED6SkCUDcRUdzA4E%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 20 Nov 2023 21:31:10 GMT
+Via: 1.1 vegur
+
+{
+    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbG1vLmtvaGxlckB5YWhvby5jb20iLCJpYXQiOjE3MDA1MTU4NzEsImV4cCI6MTcwMDU0NDY3MX0.249QZCGakZ0YssHJyWlvy9pLHAKRm413FOFwmQzJxDrjpQeXiHVYDb8YGiEbvEbcpf5NAl1vK82XPWjMyikiLg",
+    "type": "Bearer ",
+    "userId": 4675,
+    "loginUserEmail": "elmo.kohler@yahoo.com",
+    "roles": [
+        "ROLE_PATIENT"
+    ]
+}
+[INFO ]2023-11-2016:11:10.972[main]api.Utilities.Loggerload1]-***************** Patient has logged in Successfully***************
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request and  request Body with valid patient emailid and password from the excel sheet &amp#27;[0m&amp#27;[32m&amp#27;[1m"User_Login"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# api.StepDefinitions.Patient_Role_Steps.user_sends_https_request_and_request_body_with_valid_patient_emailid_and_password_from_the_excel_sheet_and(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receives &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m&amp#27;[32m Ok Status with response body and the patient successfully logs in&amp#27;[0m                                        &amp#27;[90m# api.StepDefinitions.Patient_Role_Steps.user_receives_ok_status_with_response_body_and_the_patient_successfully_logs_in(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user able to retrieve specific patients test report with valid API Endpoint" classname="Patient Role Module Positive Scenarios" time="0.264">
+    <system-out><![CDATA[
+Scenario Outline: Check if user able to retrieve specific patients test report with valid API Endpoint &amp#27;[90m# src/test/resources/Features/02Patient.feature:21&amp#27;[0m
+HTTP/1.1 200 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700515871&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=FLj7dPxlAvqQm7srk8RGk6t1yP43ZOiiomrXt0rHVRU%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700515871&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=FLj7dPxlAvqQm7srk8RGk6t1yP43ZOiiomrXt0rHVRU%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 20 Nov 2023 21:31:10 GMT
+Via: 1.1 vegur
+
+[
+    {
+        "fileId": "655bd01cfa57dd184cbe9c75",
+        "fileName": "Hypo Thyroid-Report.pdf",
+        "uploadDate": "2023-11-20T21:31:08.887+00:00",
+        "morbidConditions": {
+            "T4": "1.22 µg/dl",
+            "TSH": "100.0 mIU/L"
+        },
+        "morbidConditionStr": "Thyroid: Hypothyroidism \n"
+    },
+    {
+        "fileId": "655bd01bfa57dd184cbe9c73",
+        "fileName": "Hypo Thyroid-Report.pdf",
+        "uploadDate": "2023-11-20T21:31:07.693+00:00",
+        "morbidConditions": {
+            "T4": "1.22 µg/dl",
+            "TSH": "100.0 mIU/L"
+        },
+        "morbidConditionStr": "Thyroid: Hypothyroidism \n"
+    }
+]
+[INFO ]2023-11-2016:11:11.251[main]api.Utilities.Loggerload1]-These are the records associated with this patient Id:4619
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request with valid patient id &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                                &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_sends_https_request_with_valid_patient_id(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser recieves &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK with patient test report details&amp#27;[0m                                           &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_recieves_ok_with_patient_test_report_details(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user able to retrieve specific patients test report by fileid with valid API Endpoint" classname="Patient Role Module Positive Scenarios" time="0.202">
+    <system-out><![CDATA[
+Scenario Outline: Check if user able to retrieve specific patients test report by fileid with valid API Endpoint &amp#27;[90m# src/test/resources/Features/02Patient.feature:31&amp#27;[0m
+[INFO ]2023-11-2016:11:11.454[main]api.Utilities.Loggerload1]-These are the records associated with this patient's FileId:655bd01cfa57dd184cbe9c75
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request with valid fileid &amp#27;[0m&amp#27;[32m&amp#27;[1m"value"&amp#27;[0m                                                        &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_sends_https_request_with_valid_fileid(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser recieves &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK with patient test report files&amp#27;[0m                                                       &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_recieves_ok_with_patient_test_report_files(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user able to logout from Dietician API" classname="Patient Role Module Positive Scenarios" time="0.198">
+    <system-out><![CDATA[
+Scenario: Check if user able to logout from Dietician API               &amp#27;[90m# src/test/resources/Features/02Patient.feature:34&amp#27;[0m
+[INFO ]2023-11-2016:11:11.652[main]api.Utilities.Loggerload1]-***************** User has logged out Successfully***************
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS GET Request to logout from the Dietician API&amp#27;[0m    &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_sends_https_get_request_to_logout_from_the_dietician_api()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receives &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK Status with response body Logout successful&amp#27;[0m &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_receives_ok_status_with_response_body_logout_successful(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user(Dietician) is able to login  valid endpoint and with valid email id and password in request body" classname="Dieticians Role Module Patient Deletion Positive Scenarios" time="0.46">
+    <system-out><![CDATA[
+Scenario Outline: Check if user(Dietician) is able to login  valid endpoint and with valid email id and password in request body &amp#27;[90m# src/test/resources/Features/03PatientDeletion_Using_Dietician_ID.feature:12&amp#27;[0m
+io.restassured.internal.RestAssuredResponseImpl@6bcc277a
+HTTP/1.1 200 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700515872&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=WVNg1PYbTadlNwPm5dBOijCscDe4F9pw3j3SQq7EXuA%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700515872&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=WVNg1PYbTadlNwPm5dBOijCscDe4F9pw3j3SQq7EXuA%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 20 Nov 2023 21:31:11 GMT
+Via: 1.1 vegur
+
+{
+    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBZ2FuZXNhbjA0MTk4OUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MTU4NzIsImV4cCI6MTcwMDU0NDY3Mn0.8ex3ChXYwkPJCZcbqKT90AAd0inUkRmg0LS8F8XXBAQsh6inJT-PuKqHA5loRxJeIg31rOP61ud7loHma-djcQ",
+    "type": "Bearer ",
+    "userId": 99,
+    "loginUserEmail": "Aganesan041989@gmail.com",
+    "roles": [
+        "ROLE_DIETICIAN"
+    ]
+}
+[INFO ]2023-11-2016:11:12.094[main]api.Utilities.Loggerload1]-***************** Dietician has logged in Successfully***************
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request and  request Body with valid emailid and password from the excel sheet &amp#27;[0m&amp#27;[32m&amp#27;[1m"User_Login"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m        &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_sends_https_request_and_request_body_with_valid_emailid_and_password_from_the_excel_sheet_and(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receives &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m&amp#27;[32m Ok Status with response body and successfully logs in&amp#27;[0m                                                   &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_receives_ok_status_with_response_body_and_successfully_logs_in(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user(Dietician) able to delete patient record with valid endpoint" classname="Dieticians Role Module Patient Deletion Positive Scenarios" time="0.258">
+    <system-out><![CDATA[
+Scenario Outline: Check if user(Dietician) able to delete patient record with valid endpoint &amp#27;[90m# src/test/resources/Features/03PatientDeletion_Using_Dietician_ID.feature:24&amp#27;[0m
+[INFO ]2023-11-2016:11:12.371[main]api.Utilities.Loggerload1]-The records associated with this patient Id has been deleted successfully: 4619
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request to delete a patient record using patient &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                   &amp#27;[90m# api.StepDefinitions.Dietician_Patient_Deletion_Steps.user_sends_https_request_to_delete_a_patient_record_using_patient(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser recieves &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK with response&amp#27;[0m                                                    &amp#27;[90m# api.StepDefinitions.Dietician_Patient_Deletion_Steps.user_recieves_ok_with_response(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user able to logout from Dietician API" classname="Dieticians Role Module Patient Deletion Positive Scenarios" time="0.182">
+    <system-out><![CDATA[
+Scenario: Check if user able to logout from Dietician API               &amp#27;[90m# src/test/resources/Features/03PatientDeletion_Using_Dietician_ID.feature:28&amp#27;[0m
+[INFO ]2023-11-2016:11:12.561[main]api.Utilities.Loggerload1]-***************** User has logged out Successfully***************
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS GET Request to logout from the Dietician API&amp#27;[0m    &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_sends_https_get_request_to_logout_from_the_dietician_api()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receives &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK Status with response body Logout successful&amp#27;[0m &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_receives_ok_status_with_response_body_logout_successful(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user(Dietician) is able to login with invalid/blank credentials in request body #1" classname="Dietician API Negative Scenarios" time="0.681">
+    <system-out><![CDATA[
+Scenario Outline: Check if user(Dietician) is able to login with invalid/blank credentials in request body                                   &amp#27;[90m# src/test/resources/Features/04NegativeScenarios.feature:12&amp#27;[0m
+HTTP/1.1 401 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700515873&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=m3IVHtV2yw56VL5dLyydk7AJ1cJyJhF%2BDW%2FnJKkIIJU%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700515873&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=m3IVHtV2yw56VL5dLyydk7AJ1cJyJhF%2BDW%2FnJKkIIJU%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 20 Nov 2023 21:31:12 GMT
+Via: 1.1 vegur
+
+{
+    "timestamp": "2023-11-20T21:31:13.319+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/dietician/login"
+}
+[INFO ]2023-11-2016:11:13.239[main]api.Utilities.Loggerload1]-Login failue: Invalid Credetials!Please enter your valid email address and password*************
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request and  request Body with invalid blank emailids and passwords from the excel sheet &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid_Credentials"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_sends_https_request_and_request_body_with_invalid_blank_emailids_and_passwords_from_the_excel_sheet_and(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receives &amp#27;[0m&amp#27;[32m&amp#27;[1m401&amp#27;[0m&amp#27;[32m Unauthorized Status in the response body&amp#27;[0m                                                                            &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_receives_unauthorized_status_in_the_response_body(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user(Dietician) is able to login with invalid/blank credentials in request body #2" classname="Dietician API Negative Scenarios" time="0.349">
+    <system-out><![CDATA[
+Scenario Outline: Check if user(Dietician) is able to login with invalid/blank credentials in request body                                   &amp#27;[90m# src/test/resources/Features/04NegativeScenarios.feature:13&amp#27;[0m
+HTTP/1.1 401 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700515873&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=m3IVHtV2yw56VL5dLyydk7AJ1cJyJhF%2BDW%2FnJKkIIJU%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700515873&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=m3IVHtV2yw56VL5dLyydk7AJ1cJyJhF%2BDW%2FnJKkIIJU%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 20 Nov 2023 21:31:13 GMT
+Via: 1.1 vegur
+
+{
+    "timestamp": "2023-11-20T21:31:13.678+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/dietician/login"
+}
+[INFO ]2023-11-2016:11:13.594[main]api.Utilities.Loggerload1]-Login failue: Invalid Credetials!Please enter your valid email address and password*************
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request and  request Body with invalid blank emailids and passwords from the excel sheet &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid_Credentials"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_sends_https_request_and_request_body_with_invalid_blank_emailids_and_passwords_from_the_excel_sheet_and(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receives &amp#27;[0m&amp#27;[32m&amp#27;[1m401&amp#27;[0m&amp#27;[32m Unauthorized Status in the response body&amp#27;[0m                                                                            &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_receives_unauthorized_status_in_the_response_body(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user(Dietician) is able to login with invalid/blank credentials in request body #3" classname="Dietician API Negative Scenarios" time="0.35">
+    <system-out><![CDATA[
+Scenario Outline: Check if user(Dietician) is able to login with invalid/blank credentials in request body                                   &amp#27;[90m# src/test/resources/Features/04NegativeScenarios.feature:14&amp#27;[0m
+HTTP/1.1 401 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700515874&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DE7B7%2Bp1RjHZUvbiLyvYMk0HBS56Uao48R13I6T8XOw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700515874&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DE7B7%2Bp1RjHZUvbiLyvYMk0HBS56Uao48R13I6T8XOw%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 20 Nov 2023 21:31:13 GMT
+Via: 1.1 vegur
+
+{
+    "timestamp": "2023-11-20T21:31:14.012+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/dietician/login"
+}
+[INFO ]2023-11-2016:11:13.937[main]api.Utilities.Loggerload1]-Login failue: Invalid Credetials!Please enter your valid email address and password*************
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request and  request Body with invalid blank emailids and passwords from the excel sheet &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid_Credentials"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_sends_https_request_and_request_body_with_invalid_blank_emailids_and_passwords_from_the_excel_sheet_and(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receives &amp#27;[0m&amp#27;[32m&amp#27;[1m401&amp#27;[0m&amp#27;[32m Unauthorized Status in the response body&amp#27;[0m                                                                            &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_receives_unauthorized_status_in_the_response_body(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user(Dietician) is able to login with invalid/blank credentials in request body #4" classname="Dietician API Negative Scenarios" time="0.409">
+    <system-out><![CDATA[
+Scenario Outline: Check if user(Dietician) is able to login with invalid/blank credentials in request body                                   &amp#27;[90m# src/test/resources/Features/04NegativeScenarios.feature:15&amp#27;[0m
+HTTP/1.1 401 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700515874&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DE7B7%2Bp1RjHZUvbiLyvYMk0HBS56Uao48R13I6T8XOw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700515874&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DE7B7%2Bp1RjHZUvbiLyvYMk0HBS56Uao48R13I6T8XOw%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 20 Nov 2023 21:31:13 GMT
+Via: 1.1 vegur
+
+{
+    "timestamp": "2023-11-20T21:31:14.437+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/dietician/login"
+}
+[INFO ]2023-11-2016:11:14.357[main]api.Utilities.Loggerload1]-Login failue: Invalid Credetials!Please enter your valid email address and password*************
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request and  request Body with invalid blank emailids and passwords from the excel sheet &amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid_Credentials"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_sends_https_request_and_request_body_with_invalid_blank_emailids_and_passwords_from_the_excel_sheet_and(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receives &amp#27;[0m&amp#27;[32m&amp#27;[1m401&amp#27;[0m&amp#27;[32m Unauthorized Status in the response body&amp#27;[0m                                                                            &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_receives_unauthorized_status_in_the_response_body(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user(Dietician) is able to login  valid endpoint and with valid email id and password in request body" classname="Dietician API Negative Scenarios" time="0.408">
+    <system-out><![CDATA[
+Scenario Outline: Check if user(Dietician) is able to login  valid endpoint and with valid email id and password in request body &amp#27;[90m# src/test/resources/Features/04NegativeScenarios.feature:26&amp#27;[0m
+io.restassured.internal.RestAssuredResponseImpl@6e5091b0
+HTTP/1.1 200 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700515874&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DE7B7%2Bp1RjHZUvbiLyvYMk0HBS56Uao48R13I6T8XOw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700515874&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DE7B7%2Bp1RjHZUvbiLyvYMk0HBS56Uao48R13I6T8XOw%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 20 Nov 2023 21:31:14 GMT
+Via: 1.1 vegur
+
+{
+    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBZ2FuZXNhbjA0MTk4OUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MTU4NzQsImV4cCI6MTcwMDU0NDY3NH0.RaOL1hYXhmhirRKorWkrzgfDkLtEcsb1uZmSLSihXGPY9nIFEEKJTJOkjfkzb9fZKCdzfi0HlABDIlRC6Y0EUg",
+    "type": "Bearer ",
+    "userId": 99,
+    "loginUserEmail": "Aganesan041989@gmail.com",
+    "roles": [
+        "ROLE_DIETICIAN"
+    ]
+}
+[INFO ]2023-11-2016:11:14.761[main]api.Utilities.Loggerload1]-***************** Dietician has logged in Successfully***************
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request and  request Body with valid emailid and password from the excel sheet &amp#27;[0m&amp#27;[32m&amp#27;[1m"User_Login"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m        &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_sends_https_request_and_request_body_with_valid_emailid_and_password_from_the_excel_sheet_and(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receives &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m&amp#27;[32m Ok Status with response body and successfully logs in&amp#27;[0m                                                   &amp#27;[90m# api.StepDefinitions.Dietician_Role_Steps.user_receives_ok_status_with_response_body_and_successfully_logs_in(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user_dietician able to create a patient with valid endpoint and request body for non existing values #1" classname="Dietician API Negative Scenarios" time="0.448">
+    <system-out><![CDATA[
+Scenario Outline: Check if user_dietician able to create a patient with valid endpoint and request body for non existing values                      &amp#27;[90m# src/test/resources/Features/04NegativeScenarios.feature:37&amp#27;[0m
+My data:{"ContactNumber":0,"Allergy":"Egg","FoodCategory":"Vegan"}
+Request method:	POST
+Request URI:	https://dietician-dev-41d9a344a720.herokuapp.com/dietician/patient
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	patientInfo={"ContactNumber":0,"Allergy":"Egg","FoodCategory":"Vegan"}
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBZ2FuZXNhbjA0MTk4OUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MTU4NzQsImV4cCI6MTcwMDU0NDY3NH0.RaOL1hYXhmhirRKorWkrzgfDkLtEcsb1uZmSLSihXGPY9nIFEEKJTJOkjfkzb9fZKCdzfi0HlABDIlRC6Y0EUg
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = Hypo Thyroid-Report.pdf
+				Content-Type: application/pdf
+
+				C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks\TestData\Hypo Thyroid-Report.pdf
+Body:			<none>
+HTTP/1.1 400 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700515875&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=JEQuv6TZtw9T1rVd7Dl7ncs8PsjQhW7n5b4x22c5kHw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700515875&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=JEQuv6TZtw9T1rVd7Dl7ncs8PsjQhW7n5b4x22c5kHw%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 20 Nov 2023 21:31:14 GMT
+Via: 1.1 vegur
+
+{
+    "errorCode": "INVALID_REQ_DATA",
+    "errorMessage": "User First Name is Mandatory!\n User Last Name is Mandatory!\n Contact number should contain 10 digits\n Date of Birth is Mandatory!\n "
+}
+[INFO ]2023-11-2016:11:15.213[main]api.Utilities.Loggerload1]-Action failed: Please provide all mandatory details to create a new patient
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request and request Body without mandatory fields tries to create a patient records from the excel sheet &amp#27;[0m&amp#27;[32m&amp#27;[1m"New_Patient"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_sends_https_request_and_request_body_without_mandatory_fields_tries_to_create_a_patient_records_from_the_excel_sheet_and(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receives &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m&amp#27;[32m Bad Request Status created&amp#27;[0m                                                                                                  &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_receives_bad_request_status_created(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user_dietician able to create a patient with valid endpoint and request body for non existing values #2" classname="Dietician API Negative Scenarios" time="0.353">
+    <system-out><![CDATA[
+Scenario Outline: Check if user_dietician able to create a patient with valid endpoint and request body for non existing values                                            &amp#27;[90m# src/test/resources/Features/04NegativeScenarios.feature:47&amp#27;[0m
+My data:{"ContactNumber":0,"Allergy":"Egg","FoodCategory":"Vegan"}
+Request method:	POST
+Request URI:	https://dietician-dev-41d9a344a720.herokuapp.com/dietician/patient
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBZ2FuZXNhbjA0MTk4OUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MTU4NzQsImV4cCI6MTcwMDU0NDY3NH0.RaOL1hYXhmhirRKorWkrzgfDkLtEcsb1uZmSLSihXGPY9nIFEEKJTJOkjfkzb9fZKCdzfi0HlABDIlRC6Y0EUg
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = Hypo Thyroid-Report.pdf
+				Content-Type: application/pdf
+
+				C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks\TestData\Hypo Thyroid-Report.pdf
+Body:			<none>
+HTTP/1.1 400 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700515875&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=JEQuv6TZtw9T1rVd7Dl7ncs8PsjQhW7n5b4x22c5kHw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700515875&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=JEQuv6TZtw9T1rVd7Dl7ncs8PsjQhW7n5b4x22c5kHw%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 20 Nov 2023 21:31:14 GMT
+Via: 1.1 vegur
+
+{
+    "timestamp": "2023-11-20T21:31:15.682+00:00",
+    "status": 400,
+    "error": "Bad Request",
+    "path": "/dietician/patient"
+}
+[INFO ]2023-11-2016:11:15.570[main]api.Utilities.Loggerload1]-Action failed:No Patient Info Found !!!
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request and request Body without patientinfo and attaches only the file tries to create a patient records from the excel sheet &amp#27;[0m&amp#27;[32m&amp#27;[1m"New_Patient"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_sends_https_request_and_request_body_without_patientinfo_and_attaches_only_the_file_tries_to_create_a_patient_records_from_the_excel_sheet_and(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receives &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m&amp#27;[32m Bad Request Status created and patientid is not created&amp#27;[0m                                                                                           &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_receives_bad_request_status_created_and_patientid_is_not_created(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user_dietician is able to update a patient with invalid patient details and mandatory request body" classname="Dietician API Negative Scenarios" time="0.519">
+    <system-out><![CDATA[
+Scenario Outline: Check if user_dietician is able to update a patient with invalid patient details and mandatory request body                                                         &amp#27;[90m# src/test/resources/Features/04NegativeScenarios.feature:57&amp#27;[0m
+{"FirstName":"Magali","LastName":"Dare","ContactNumber":6941021642,"Email":"emerson.schowalter@hotmail.com","Allergy":"Egg","FoodCategory":"Vegetarian","DateOfBirth":"2003-11-20T16:31:15.766769300"}
+Request method:	PUT
+Request URI:	https://dietician-dev-41d9a344a720.herokuapp.com/dietician/patient/12345
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	patientInfo={"FirstName":"Magali","LastName":"Dare","ContactNumber":6941021642,"Email":"emerson.schowalter@hotmail.com","Allergy":"Egg","FoodCategory":"Vegetarian","DateOfBirth":"2003-11-20T16:31:15.766769300"}
+Path params:	patientId=12345
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBZ2FuZXNhbjA0MTk4OUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MTU4NzQsImV4cCI6MTcwMDU0NDY3NH0.RaOL1hYXhmhirRKorWkrzgfDkLtEcsb1uZmSLSihXGPY9nIFEEKJTJOkjfkzb9fZKCdzfi0HlABDIlRC6Y0EUg
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = Hypo Thyroid-Report.pdf
+				Content-Type: application/pdf
+
+				C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks\TestData\Hypo Thyroid-Report.pdf
+Body:			<none>
+HTTP/1.1 404 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700515876&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=zr%2BqAhQEmAKl3RlUdXEBiT%2BlZL64FqUWeGRdaB4scZM%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700515876&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=zr%2BqAhQEmAKl3RlUdXEBiT%2BlZL64FqUWeGRdaB4scZM%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 20 Nov 2023 21:31:16 GMT
+Via: 1.1 vegur
+
+{
+    "errorCode": "NOT_FOUND",
+    "errorMessage": "Patient not found with patientId : 12345"
+}
+[INFO ]2023-11-2016:11:16.091[main]api.Utilities.Loggerload1]-Action failed: Please Provide the correct patient Id to update the records
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request and request Body with mandatory and additional  fields to update a patient records with invalid patientID from the excel sheet &amp#27;[0m&amp#27;[32m&amp#27;[1m"Update_Patient"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_sends_https_request_and_request_body_with_mandatory_and_additional_fields_to_update_a_patient_records_with_invalid_patient_id_from_the_excel_sheet_and(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser recieves &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m&amp#27;[32m bad request is created and update failed&amp#27;[0m                                                                                                                     &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_recieves_bad_request_is_created_and_update_failed(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user able to retrieve specific patients test report with valid API Endpoint" classname="Dietician API Negative Scenarios" time="0.193">
+    <system-out><![CDATA[
+Scenario Outline: Check if user able to retrieve specific patients test report with valid API Endpoint &amp#27;[90m# src/test/resources/Features/04NegativeScenarios.feature:66&amp#27;[0m
+[INFO ]2023-11-2016:11:16.286[main]api.Utilities.Loggerload1]-Action failed: Incorrect patientId!Records cannot be viewed
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request with invalid patient id &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                              &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_sends_https_request_with_invalid_patient_id(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser recieves &amp#27;[0m&amp#27;[32m&amp#27;[1m404&amp#27;[0m&amp#27;[32m not found and reports failed to be displayed.&amp#27;[0m                                 &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_recieves_not_found_and_reports_failed_to_be_displayed(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user able to retrieve specific patients test report by fileid with valid API Endpoint" classname="Dietician API Negative Scenarios" time="0.181">
+    <system-out><![CDATA[
+Scenario Outline: Check if user able to retrieve specific patients test report by fileid with valid API Endpoint &amp#27;[90m# src/test/resources/Features/04NegativeScenarios.feature:75&amp#27;[0m
+[INFO ]2023-11-2016:11:16.468[main]api.Utilities.Loggerload1]-Action failed: Incorrect FileId!Records cannot be viewed
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request with invalid fileid &amp#27;[0m&amp#27;[32m&amp#27;[1m"value"&amp#27;[0m                                                      &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_sends_https_request_with_invalid_fileid(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser recieves &amp#27;[0m&amp#27;[32m&amp#27;[1m404&amp#27;[0m&amp#27;[32m not found with no patient test report details&amp#27;[0m                                           &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_recieves_not_found_with_no_patient_test_report_details(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user able to retrieve a morbidity information with valid Morbidity TestName" classname="Dietician API Negative Scenarios" time="0.238">
+    <system-out><![CDATA[
+Scenario Outline: Check if user able to retrieve a morbidity information with valid Morbidity TestName &amp#27;[90m# src/test/resources/Features/04NegativeScenarios.feature:85&amp#27;[0m
+[INFO ]2023-11-2016:11:16.702[main]api.Utilities.Loggerload1]-Action failed: Morbidity Name doesnt match!Records cannot be viewed
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request with invalid  morbidity test name &amp#27;[0m&amp#27;[32m&amp#27;[1m"value"&amp#27;[0m                              &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_sends_https_request_with_invalid_morbidity_test_name(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser recieves &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m&amp#27;[32m Bad Request with no details of morbidity test name getting displayed&amp#27;[0m          &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_recieves_bad_request_with_no_details_of_morbidity_test_name_getting_displayed(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if user(Dietician) able to delete patient record with valid endpoint" classname="Dietician API Negative Scenarios" time="0.232">
+    <system-out><![CDATA[
+Scenario Outline: Check if user(Dietician) able to delete patient record with valid endpoint &amp#27;[90m# src/test/resources/Features/04NegativeScenarios.feature:96&amp#27;[0m
+[INFO ]2023-11-2016:11:16.936[main]api.Utilities.Loggerload1]-Action failed: Patient Id doesnt exists to perform delete actions!!
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser sends HTTPS Request to delete a patient record using invalid patient &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m           &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_sends_https_request_to_delete_a_patient_record_using_invalid_patient(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser recieves &amp#27;[0m&amp#27;[32m&amp#27;[1m404&amp#27;[0m&amp#27;[32m not found with response&amp#27;[0m                                             &amp#27;[90m# api.StepDefinitions.All_Negative_Scenarios.user_recieves_not_found_with_response(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

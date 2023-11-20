@@ -8,6 +8,7 @@ import api.Payloads.*;
 import api.Utilities.Loggerload;
 import api.GlobalVariables.*;
 import io.restassured.http.ContentType;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
@@ -50,7 +51,7 @@ public void TestPostPatientLogin(String password)
 	userpayload.setUserLoginEmail(Env_Var.Email);
 	userpayload.setPassword(password);
 	response= User_Login_CRUD.User_Login(userpayload);
-	extractresponse=response.then().log().all().extract().response().asString();
+	extractresponse=response.then().body(JsonSchemaValidator.matchesJsonSchemaInClasspath(".\\Schema_Validators\\Login_Post.json")).log().all().extract().response().asString();
 	JsonPath js= new JsonPath(extractresponse);
 	String tkn= js.getString("token");
 	//System.out.println("Token is" +tkn);

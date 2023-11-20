@@ -1,0 +1,38 @@
+package api.StepDefinitions;
+
+import io.cucumber.java.en.Then;
+
+import io.cucumber.java.en.When;
+import java.io.IOException;
+import java.text.ParseException;
+import java.util.List;
+import java.util.Map;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.testng.Assert;
+
+import api.Actions.*;
+import api.CRUDOperations.*;
+import api.Payloads.*;
+import io.restassured.response.Response;
+import api.Utilities.ExcelReader;
+import api.GlobalVariables.*;
+
+public class Schema_Validations_Steps {
+	
+	@When("User sends HTTPS Request and request Body with mandatory and additional  fields to create a patient records")
+	public void user_sends_https_request_and_request_body_with_mandatory_and_additional_fields_to_create_a_patient_records() {
+	   
+	}
+
+	@When("User sends HTTPS Request and request Body with mandatory and additional  fields to update a patient records")
+	public void user_sends_https_request_and_request_body_with_mandatory_and_additional_fields_to_update_a_patient_records() {
+	   
+	}
+
+	@When("User sends HTTPS Request to delete a patient record using patient")
+	public void user_sends_https_request_to_delete_a_patient_record_using_patient() {
+	   
+	}
+
+
+}

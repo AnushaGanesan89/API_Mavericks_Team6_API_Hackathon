@@ -1,1 +1,0 @@
-{"uuid":"e60d7140-7b11-423b-b2de-ebea64372141","name":"Scenario Outline: Check if user(Dietician) able to delete patient record with valid endpoint","children":["ed86f4d7-56d2-406e-95c0-7a6bdb31a03b"],"befores":[],"afters":[],"start":1700483481554,"stop":1700483481741}

@@ -1,0 +1,1 @@
+{"uuid":"3c355960-9e16-486e-8503-41a382803888","name":"Scenario Outline: Check if user(Patient) is able to login  valid endpoint and with valid email id and password in request body","children":["b02dbb4c-c39a-4008-81a6-5f6e27ccedcc"],"befores":[],"afters":[],"start":1700517573624,"stop":1700517574160}

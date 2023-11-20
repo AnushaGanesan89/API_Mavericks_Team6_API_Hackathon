@@ -1,0 +1,58 @@
+package api.StepDefinitions;
+
+import io.cucumber.java.en.Then;
+
+import io.cucumber.java.en.When;
+import java.io.IOException;
+import java.text.ParseException;
+import java.util.List;
+import java.util.Map;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.testng.Assert;
+
+import api.Actions.*;
+import api.CRUDOperations.*;
+import api.Payloads.*;
+import io.restassured.response.Response;
+import api.Utilities.ExcelReader;
+import api.GlobalVariables.*;
+
+public class Schema_Validations_Steps {
+	
+	Schema_Validations_TC utc= new Schema_Validations_TC();
+
+	
+	@When("User sends HTTPS Request and request Body with mandatory and additional  fields to create a patient records")
+	public void user_sends_https_request_and_request_body_with_mandatory_and_additional_fields_to_create_a_patient_records() {
+	   
+	}
+	@Then("User receives {int} Created Status with response body and patient is successfully created for the record")
+	public void user_receives_created_status_with_response_body_and_patient_is_successfully_created_for_the_record(Integer int1) {
+	   
+	}
+
+	@When("User sends HTTPS Request and request Body with mandatory and additional  fields to update a patient records")
+	public void user_sends_https_request_and_request_body_with_mandatory_and_additional_fields_to_update_a_patient_records() {
+	   
+	}
+	@Then("User recieves {int} Ok with response body with response body and patient details are successfully updated for the record")
+	public void user_recieves_ok_with_response_body_with_response_body_and_patient_details_are_successfully_updated_for_the_record(Integer int1) {
+	  
+	}
+
+	@When("User sends HTTPS Request to delete a patient record using patient")
+	public void user_sends_https_request_to_delete_a_patient_record_using_patient() {
+	   
+	}
+
+	
+
+	
+
+	@Then("User recieves {int} OK with response patient deleted")
+	public void user_recieves_ok_with_response_patient_deleted(Integer int1) {
+	    
+	}
+
+
+}

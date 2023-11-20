@@ -2426,3 +2426,327 @@
 2023-11-20 07:31:40,847 [Worker-284: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-11-20 07:31:40,849 [Worker-284: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-11-20 07:31:40,850 [Worker-284: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 07:35:55,441 [Worker-291: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 07:35:55,444 [Worker-291: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 07:35:55,445 [Worker-291: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 07:35:55,447 [Worker-291: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2023-11-20 12:15:04,413 [Worker-301: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:15:04,425 [Worker-301: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 12:15:04,427 [Worker-301: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:15:04,428 [Worker-301: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 12:15:50,383 [Worker-302: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:15:50,385 [Worker-302: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 12:15:50,393 [Worker-302: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:15:50,397 [Worker-302: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 12:16:45,543 [Worker-305: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:16:45,545 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 12:16:45,548 [Worker-305: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:16:45,549 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 12:17:39,729 [Worker-304: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:17:39,731 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 12:17:39,733 [Worker-304: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:17:39,734 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 12:17:48,259 [Worker-305: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:17:48,265 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 12:17:48,270 [Worker-305: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:17:48,272 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 12:18:47,166 [Worker-302: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:18:47,168 [Worker-302: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 12:18:47,170 [Worker-302: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:18:47,172 [Worker-302: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 12:22:59,391 [Worker-301: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:22:59,393 [Worker-301: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 12:22:59,395 [Worker-301: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:22:59,396 [Worker-301: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 12:24:02,423 [Worker-308: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:24:02,428 [Worker-308: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 12:24:02,430 [Worker-308: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:24:02,432 [Worker-308: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 12:31:52,644 [Worker-305: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:31:52,646 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 12:31:52,647 [Worker-305: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:31:52,746 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 12:34:05,936 [Worker-311: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:34:05,938 [Worker-311: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 12:34:05,940 [Worker-311: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:34:05,942 [Worker-311: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 12:36:31,253 [Worker-312: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:36:31,362 [Worker-312: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 12:36:31,363 [Worker-312: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:36:31,366 [Worker-312: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 12:39:43,873 [Worker-312: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:39:43,875 [Worker-312: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 12:39:43,876 [Worker-312: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:39:43,877 [Worker-312: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 12:40:00,555 [Worker-311: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:40:00,557 [Worker-311: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 12:40:00,558 [Worker-311: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:40:00,562 [Worker-311: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 12:45:37,295 [Worker-324: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:45:37,296 [Worker-324: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 12:45:37,298 [Worker-324: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 12:45:37,299 [Worker-324: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 13:10:16,896 [Worker-329: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:10:16,909 [Worker-329: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 13:10:16,911 [Worker-329: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:10:16,914 [Worker-329: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 13:23:31,709 [Worker-337: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:23:31,711 [Worker-337: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 13:23:31,713 [Worker-337: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:23:31,714 [Worker-337: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 13:28:13,198 [Worker-334: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:28:13,228 [Worker-334: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 13:28:13,229 [Worker-334: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:28:13,232 [Worker-334: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 13:29:52,084 [Worker-343: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:29:52,086 [Worker-343: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 13:29:52,089 [Worker-343: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:29:52,093 [Worker-343: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 13:31:36,613 [Worker-341: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:31:36,615 [Worker-341: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 13:31:36,617 [Worker-341: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:31:36,620 [Worker-341: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 13:36:44,442 [Worker-343: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:36:44,444 [Worker-343: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 13:36:44,445 [Worker-343: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:36:44,448 [Worker-343: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 13:39:33,531 [Worker-346: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:39:33,549 [Worker-346: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 13:39:33,556 [Worker-346: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:39:33,559 [Worker-346: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 13:42:16,804 [Worker-350: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:42:16,805 [Worker-350: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 13:42:16,808 [Worker-350: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:42:16,813 [Worker-350: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 13:51:59,027 [Worker-349: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:51:59,028 [Worker-349: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 13:51:59,030 [Worker-349: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:51:59,033 [Worker-349: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 13:52:52,719 [Worker-354: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:52:52,720 [Worker-354: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 13:52:52,722 [Worker-354: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:52:52,727 [Worker-354: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 13:54:37,808 [Worker-358: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:54:37,811 [Worker-358: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 13:54:37,813 [Worker-358: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:54:37,819 [Worker-358: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 13:59:58,512 [Worker-357: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:59:58,514 [Worker-357: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 13:59:58,518 [Worker-357: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 13:59:58,519 [Worker-357: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 14:01:11,314 [Worker-360: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:01:11,317 [Worker-360: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:01:11,319 [Worker-360: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:01:11,328 [Worker-360: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 14:03:33,823 [Worker-363: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:03:33,825 [Worker-363: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:03:33,826 [Worker-363: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:03:33,829 [Worker-363: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 14:04:32,832 [Worker-362: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:04:32,839 [Worker-362: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:04:32,849 [Worker-362: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:04:32,851 [Worker-362: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 14:05:27,665 [Worker-363: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:05:27,668 [Worker-363: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:05:27,670 [Worker-363: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:05:27,671 [Worker-363: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 14:05:47,433 [Worker-364: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:05:47,451 [Worker-364: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:05:47,452 [Worker-364: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:05:47,455 [Worker-364: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 14:05:53,511 [Worker-364: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:05:53,512 [Worker-364: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:05:53,513 [Worker-364: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:05:53,519 [Worker-364: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 14:20:12,016 [Worker-368: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:20:12,019 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:20:12,022 [Worker-368: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:20:12,024 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 14:22:22,953 [Worker-370: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:22:22,955 [Worker-370: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:22:22,958 [Worker-370: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:22:22,959 [Worker-370: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 14:23:34,624 [Worker-372: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:23:34,627 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:23:34,632 [Worker-372: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:23:34,634 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-11-20 14:23:46,496 [Worker-372: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:23:46,509 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:23:46,512 [Worker-372: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:23:46,513 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 14:24:01,524 [Worker-373: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:24:01,525 [Worker-373: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:24:01,528 [Worker-373: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:24:01,532 [Worker-373: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 14:24:13,112 [Worker-374: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:24:13,114 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:24:13,116 [Worker-374: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:24:13,118 [Worker-374: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 14:25:27,842 [Worker-368: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:25:27,845 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:25:27,847 [Worker-368: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:25:27,852 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
+2023-11-20 14:25:49,117 [Worker-368: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:25:49,119 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:25:49,122 [Worker-368: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:25:49,127 [Worker-368: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
+2023-11-20 14:34:23,640 [Worker-373: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:34:23,642 [Worker-373: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:34:23,644 [Worker-373: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:34:23,648 [Worker-373: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
+2023-11-20 14:34:53,934 [Worker-376: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:34:53,936 [Worker-376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:34:53,938 [Worker-376: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:34:53,943 [Worker-376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
+2023-11-20 14:35:28,484 [Worker-373: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:35:28,487 [Worker-373: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:35:28,489 [Worker-373: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:35:28,494 [Worker-373: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
+2023-11-20 14:40:57,944 [Worker-376: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:40:57,945 [Worker-376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:40:57,947 [Worker-376: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:40:57,950 [Worker-376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
+2023-11-20 14:41:15,150 [Worker-372: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:41:15,151 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:41:15,153 [Worker-372: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:41:15,157 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
+2023-11-20 14:44:15,494 [Worker-377: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:44:15,495 [Worker-377: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:44:15,496 [Worker-377: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:44:15,500 [Worker-377: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
+2023-11-20 14:44:54,427 [Worker-372: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:44:54,429 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:44:54,431 [Worker-372: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:44:54,434 [Worker-372: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
+2023-11-20 14:46:23,778 [Worker-379: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:46:23,780 [Worker-379: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:46:23,782 [Worker-379: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:46:23,783 [Worker-379: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 14:52:49,461 [Worker-376: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:52:49,464 [Worker-376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:52:49,466 [Worker-376: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:52:49,472 [Worker-376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
+2023-11-20 14:54:03,945 [Worker-380: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:54:03,947 [Worker-380: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:54:03,949 [Worker-380: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:54:04,039 [Worker-380: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
+2023-11-20 14:56:06,374 [Worker-381: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:56:06,376 [Worker-381: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:56:06,380 [Worker-381: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:56:06,384 [Worker-381: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
+2023-11-20 14:58:16,334 [Worker-380: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:58:16,337 [Worker-380: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:58:16,340 [Worker-380: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:58:16,345 [Worker-380: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
+2023-11-20 14:58:23,195 [Worker-376: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:58:23,197 [Worker-376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:58:23,200 [Worker-376: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:58:23,201 [Worker-376: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:58:35,157 [Worker-381: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:58:35,159 [Worker-381: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:58:35,161 [Worker-381: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:58:35,165 [Worker-381: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 14:58:51,453 [Worker-383: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:58:51,454 [Worker-383: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 14:58:51,455 [Worker-383: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 14:58:51,459 [Worker-383: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 15:00:50,025 [Worker-386: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 15:00:50,030 [Worker-386: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 15:00:50,036 [Worker-386: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 15:00:50,048 [Worker-386: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2023-11-20 15:12:22,917 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606 [271])
+2023-11-20 15:12:23,013 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606
+2023-11-20 15:12:23,034 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\aether-connector-okhttp-0.17.8.jar
+2023-11-20 15:12:23,036 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\commons-lang3-3.8.1.jar
+2023-11-20 15:12:23,037 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\guice-4.2.2-no_aop.jar
+2023-11-20 15:12:23,038 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\jansi-2.4.0.jar
+2023-11-20 15:12:23,039 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-artifact-3.8.7.jar
+2023-11-20 15:12:23,041 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-builder-support-3.8.7.jar
+2023-11-20 15:12:23,042 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-compat-3.8.7.jar
+2023-11-20 15:12:23,047 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-core-3.8.7.jar
+2023-11-20 15:12:23,049 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-embedder-3.8.7.jar
+2023-11-20 15:12:23,050 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-3.8.7.jar
+2023-11-20 15:12:23,051 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-builder-3.8.7.jar
+2023-11-20 15:12:23,055 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-plugin-api-3.8.7.jar
+2023-11-20 15:12:23,056 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-repository-metadata-3.8.7.jar
+2023-11-20 15:12:23,057 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-api-1.6.3.jar
+2023-11-20 15:12:23,059 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-11-20 15:12:23,059 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-impl-1.6.3.jar
+2023-11-20 15:12:23,061 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-provider-3.8.7.jar
+2023-11-20 15:12:23,062 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-spi-1.6.3.jar
+2023-11-20 15:12:23,063 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-11-20 15:12:23,064 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-util-1.6.3.jar
+2023-11-20 15:12:23,065 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-3.8.7.jar
+2023-11-20 15:12:23,066 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-builder-3.8.7.jar
+2023-11-20 15:12:23,067 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-shared-utils-3.3.4.jar
+2023-11-20 15:12:23,068 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okhttp-3.14.1.jar
+2023-11-20 15:12:23,068 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okio-1.17.3.jar
+2023-11-20 15:12:23,069 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-11-20 15:12:23,070 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-11-20 15:12:23,071 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-build-api-0.0.7.jar
+2023-11-20 15:12:23,071 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-cipher-2.0.jar
+2023-11-20 15:12:23,072 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar
+2023-11-20 15:12:23,073 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-component-annotations-2.1.0.jar
+2023-11-20 15:12:23,074 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-interpolation-1.26.jar
+2023-11-20 15:12:23,074 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-sec-dispatcher-2.0.jar
+2023-11-20 15:12:23,075 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-utils-3.3.1.jar
+2023-11-20 15:12:23,075 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-file-3.5.3.jar
+2023-11-20 15:12:23,076 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-provider-api-3.5.3.jar
+2023-11-20 15:12:23,087 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [9])
+2023-11-20 15:12:23,089 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\com.google.guava_31.1.0.jre.jar
+2023-11-20 15:12:23,089 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [439])
+2023-11-20 15:12:23,114 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2023-11-20 15:12:23,114 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [21])
+2023-11-20 15:12:23,151 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-11-20 15:12:23,151 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221203-1659 [19])
+2023-11-20 15:12:23,255 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\javax.annotation_1.3.5.v20221203-1659.jar
+2023-11-20 15:12:23,255 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.4.0.v20221112-0806 [41])
+2023-11-20 15:12:23,366 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\org.apache.commons.cli_1.4.0.v20221112-0806.jar
+2023-11-20 15:12:23,367 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [11])
+2023-11-20 15:12:23,458 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Prasanna\.p2\pool\plugins\com.google.guava.failureaccess_1.0.1.jar
+2023-11-20 15:12:23,503 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks":
+2023-11-20 15:12:23,528 [Worker-376: Launching Executing clean in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-11-20 15:13:06,102 [Worker-390: Launching Executing install in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks":
+2023-11-20 15:13:06,102 [Worker-390: Launching Executing install in C__Users_Prasanna_eclipse-workspace_API_Mavericks_Team6_API_Hackathon_Team6_API_Hackathon_API_Mavericks] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2023-11-20 15:56:05,663 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-11-20 15:56:17,782 [Worker-397: Launching Team6_API_Hackathon_API_Mavericks] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks":
+2023-11-20 15:56:17,782 [Worker-397: Launching Team6_API_Hackathon_API_Mavericks] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always verify 
+2023-11-20 15:58:24,958 [Worker-402: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 15:58:24,973 [Worker-402: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 15:58:24,975 [Worker-402: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 15:58:24,976 [Worker-402: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 16:00:14,676 [Worker-397: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 16:00:14,678 [Worker-397: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 16:00:14,681 [Worker-397: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 16:00:14,682 [Worker-397: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 16:00:22,098 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-11-20 16:00:28,489 [Worker-401: Launching Team6_API_Hackathon_API_Mavericks (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks":
+2023-11-20 16:00:28,489 [Worker-401: Launching Team6_API_Hackathon_API_Mavericks (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always verify
+2023-11-20 16:05:24,885 [Worker-403: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 16:05:24,890 [Worker-403: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 16:05:24,894 [Worker-403: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 16:05:24,903 [Worker-403: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2023-11-20 16:05:32,734 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-11-20 16:05:41,388 [Worker-403: Launching Team6_API_Hackathon_API_Mavericks (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks":
+2023-11-20 16:05:41,388 [Worker-403: Launching Team6_API_Hackathon_API_Mavericks (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always verify
+2023-11-20 16:18:47,875 [Worker-409: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Team6_API_Hackathon_API_Mavericks:Team6_API_Hackathon_API_Mavericks:0.0.1-SNAPSHOT @ C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks\pom.xml.
+2023-11-20 16:18:51,741 [Worker-409: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 16:18:52,066 [Worker-409: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 16:18:52,073 [Worker-409: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 16:18:52,076 [Worker-409: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 16:18:53,615 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-11-20 16:20:09,606 [Worker-410: Launching Team6_API_Hackathon_API_Mavericks (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks":
+2023-11-20 16:20:09,607 [Worker-410: Launching Team6_API_Hackathon_API_Mavericks (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always verify
+2023-11-20 16:24:21,096 [Worker-414: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Team6_API_Hackathon_API_Mavericks:Team6_API_Hackathon_API_Mavericks:0.0.1-SNAPSHOT @ C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks\pom.xml.
+2023-11-20 16:24:25,717 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-11-20 16:24:26,344 [Worker-414: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 16:24:26,348 [Worker-414: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 16:24:26,352 [Worker-414: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 16:24:26,354 [Worker-414: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 16:25:07,301 [Worker-405: Launching Team6_API_Hackathon_API_Mavericks (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks":
+2023-11-20 16:25:07,302 [Worker-405: Launching Team6_API_Hackathon_API_Mavericks (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always verify
+2023-11-20 16:30:16,893 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-11-20 16:30:22,213 [Worker-417: Launching Team6_API_Hackathon_API_Mavericks (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Prasanna\eclipse-workspace\API_Mavericks\Team6_API_Hackathon\Team6_API_Hackathon_API_Mavericks":
+2023-11-20 16:30:22,213 [Worker-417: Launching Team6_API_Hackathon_API_Mavericks (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always verify
+2023-11-20 17:23:47,974 [Worker-434: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-20 17:23:48,948 [Worker-434: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
